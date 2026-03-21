@@ -17,7 +17,7 @@ DEMO_DATASETS = {
 
 def _render_schema_summary(df: pd.DataFrame) -> None:
     """Display column-level schema info: dtype, nulls, unique counts."""
-    st.markdown("##### 📋 Schema Summary")
+    st.markdown("##### Schema")
     summary_data = []
     for col in df.columns:
         summary_data.append({
@@ -47,33 +47,30 @@ def render_sidebar() -> None:
     """
     Render the full sidebar: file uploader, demo selector,
     data preview, and schema summary.
-
-    Updates st.session_state with:
-      - df: the active DataFrame
-      - dataset_name: name of the loaded source
-      - data_changed: flag indicating the dataset was just changed
     """
     with st.sidebar:
         st.markdown(
             """
             <div style="text-align: center; padding: 0.5rem 0 1rem;">
-                <span style="
-                    font-size: 1.8rem;
-                    filter: drop-shadow(0 0 12px rgba(110, 72, 255, 0.4));
-                    color: #a78bfa !important;
-                    font-family: 'Segoe UI Symbol', 'Noto Sans Symbols', sans-serif;
-                ">&#x25C8;</span>
+                <div style="
+                    width: 42px; height: 42px;
+                    border-radius: 12px;
+                    background: linear-gradient(135deg, #7b5ea7, #e8889e);
+                    display: inline-flex; align-items: center; justify-content: center;
+                    font-size: 1.1rem;
+                    color: white;
+                    margin-bottom: 8px;
+                    box-shadow: 0 3px 10px rgba(123, 94, 167, 0.2);
+                ">◈</div>
                 <h2 style="
-                    margin: 8px 0 0;
-                    font-family: 'Playfair Display', Georgia, serif;
-                    color: #ffffff !important;
-                    font-size: 1.4rem;
-                    font-weight: 700;
-                ">
-                    Vantage
-                </h2>
-                <p style="color: rgba(200,214,229,0.5) !important; font-size: 0.8rem; margin-top: 0.25rem;">
-                    Upload data · Ask questions · Get insights
+                    margin: 0;
+                    font-family: 'DM Serif Display', Georgia, serif;
+                    color: #2d2d2d !important;
+                    font-size: 1.3rem;
+                    font-weight: 400;
+                ">Vantage</h2>
+                <p style="color: #8a8494 !important; font-size: 0.75rem; margin-top: 0.25rem;">
+                    Upload · Ask · Insights
                 </p>
             </div>
             """,
@@ -83,7 +80,7 @@ def render_sidebar() -> None:
         st.markdown("---")
 
         # ── File Upload ───────────────────────────────────────
-        st.markdown("##### 📁 Upload Your Data")
+        st.markdown("##### Upload your data")
         uploaded_file = st.file_uploader(
             "Drag and drop a CSV file",
             type=["csv"],
@@ -102,11 +99,11 @@ def render_sidebar() -> None:
                     st.session_state.dataset_name = name
                     st.session_state.data_changed = True
             except Exception:
-                st.error("⚠️ Could not parse this file. Please upload a valid CSV.")
+                st.error("Could not parse this file. Please upload a valid CSV.")
                 return
 
         # ── Demo Dataset Picker ───────────────────────────────
-        st.markdown("##### 🗂️ Or Try a Demo Dataset")
+        st.markdown("##### Or try a demo")
         demo_choice = st.selectbox(
             "Select a demo dataset",
             options=list(DEMO_DATASETS.keys()),
@@ -132,7 +129,7 @@ def render_sidebar() -> None:
             name = st.session_state.get("dataset_name", "Dataset")
 
             st.markdown("---")
-            st.markdown(f"##### 📊 {name}")
+            st.markdown(f"##### {name}")
             st.caption(f"{len(df):,} rows · {len(df.columns)} columns")
             st.dataframe(
                 df.head(5),

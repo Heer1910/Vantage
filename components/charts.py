@@ -1,6 +1,6 @@
 """
 Chart renderer — routes chart_spec to the correct Plotly chart type
-and applies the dark glassmorphism theme. Supports 12 chart types
+and applies the brand theme. Supports 12 chart types
 and multi-chart dashboard layouts.
 """
 
@@ -97,13 +97,12 @@ def render_dashboard(panels: list[dict], df: pd.DataFrame, execute_fn) -> None:
         <div style="
             text-align: center;
             margin: 10px 0 20px;
-            padding: 12px;
-            background: rgba(110, 72, 255, 0.08);
-            border: 1px solid rgba(110, 72, 255, 0.2);
+            padding: 10px;
+            background: linear-gradient(135deg, #ede8f5, #e4eef8);
+            border: none;
             border-radius: 12px;
         ">
-            <span style="font-size: 1.2rem;">📊</span>
-            <span style="color: #a78bfa; font-weight: 600; font-size: 0.95rem; margin-left: 8px;">
+            <span style="color: #7b5ea7; font-weight: 600; font-size: 0.9rem;">
                 Dashboard View
             </span>
         </div>
@@ -192,12 +191,12 @@ def _build_figure(
             if len(numeric_df.columns) >= 2:
                 corr = numeric_df.corr()
                 fig = px.imshow(corr, text_auto=".2f", title=title,
-                               color_continuous_scale=["#0d1b2a", "#6e48ff", "#a78bfa", "#f59e0b"])
+                               color_continuous_scale=["#f8f7fc", "#b8a9d4", "#7b5ea7", "#e8889e"])
                 return fig
         except Exception:
             pass
         fig = px.imshow(df.select_dtypes(include="number"), title=title,
-                       color_continuous_scale=["#0d1b2a", "#6e48ff", "#a78bfa"])
+                       color_continuous_scale=["#f8f7fc", "#b8a9d4", "#7b5ea7"])
         return fig
 
     # ── Treemap ──

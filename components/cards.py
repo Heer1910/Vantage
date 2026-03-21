@@ -1,38 +1,34 @@
 """
-Insight & Recommendation cards for the dark glassmorphism theme.
+Insight & Recommendation cards — colorful pastel fills.
 
-Each card renders as a styled markdown block with frosted glass effect.
+Each card renders with a soft pastel background and subtle accent border.
 """
 
 import streamlit as st
 
 
 def render_insight_card(text: str) -> None:
-    """Render a glass-effect insight card with a cyan/purple accent."""
+    """Render an insight card with soft lavender-sky gradient fill."""
     st.markdown(
         f"""
         <div style="
-            background: rgba(110, 72, 255, 0.06);
-            border: 1px solid rgba(110, 72, 255, 0.15);
-            border-left: 4px solid #6e48ff;
+            background: linear-gradient(135deg, #ede8f5, #e4eef8);
+            border-left: 3px solid #7b5ea7;
             border-radius: 12px;
-            padding: 20px 22px;
-            margin: 12px 0;
-            backdrop-filter: blur(10px);
-            animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 16px 18px;
+            margin: 10px 0;
         ">
             <p style="
-                margin: 0 0 8px 0;
-                font-size: 0.7rem;
-                font-weight: 700;
-                color: #a78bfa;
-                text-transform: uppercase;
-                letter-spacing: 0.1em;
-            ">💡 What the data shows</p>
+                margin: 0 0 6px 0;
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: #7b5ea7;
+                letter-spacing: 0.04em;
+            ">What the data shows</p>
             <p style="
                 margin: 0;
-                color: #c8d6e5;
-                font-size: 0.9rem;
+                color: #3d3852;
+                font-size: 0.88rem;
                 line-height: 1.6;
             ">{text}</p>
         </div>
@@ -42,31 +38,27 @@ def render_insight_card(text: str) -> None:
 
 
 def render_recommendation_card(text: str) -> None:
-    """Render a glass-effect recommendation card with an amber accent."""
+    """Render a recommendation card with soft peach-pink gradient fill."""
     st.markdown(
         f"""
         <div style="
-            background: rgba(245, 158, 11, 0.06);
-            border: 1px solid rgba(245, 158, 11, 0.15);
-            border-left: 4px solid #f59e0b;
+            background: linear-gradient(135deg, #fce8e0, #f8e4ec);
+            border-left: 3px solid #e8889e;
             border-radius: 12px;
-            padding: 20px 22px;
-            margin: 12px 0;
-            backdrop-filter: blur(10px);
-            animation: slideUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 16px 18px;
+            margin: 10px 0;
         ">
             <p style="
-                margin: 0 0 8px 0;
-                font-size: 0.7rem;
-                font-weight: 700;
-                color: #fbbf24;
-                text-transform: uppercase;
-                letter-spacing: 0.1em;
-            ">⚡ What this means for your business</p>
+                margin: 0 0 6px 0;
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: #e8889e;
+                letter-spacing: 0.04em;
+            ">Business recommendation</p>
             <p style="
                 margin: 0;
-                color: #c8d6e5;
-                font-size: 0.9rem;
+                color: #3d3852;
+                font-size: 0.88rem;
                 line-height: 1.6;
             ">{text}</p>
         </div>
