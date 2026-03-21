@@ -25,8 +25,15 @@ REQUIRED_FIELDS = {"analysis_code", "chart_spec", "insight_narrative", "business
 
 
 def _get_client() -> anthropic.Anthropic:
-    """Instantiate the Anthropic client from environment variable."""
+    """Instantiate the Anthropic client from env var or Streamlit secrets."""
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    # Fallback: check Streamlit secrets (used on Streamlit Community Cloud)
+    if not api_key:
+        try:
+            import streamlit as st
+            api_key = st.secrets.get("ANTHROPIC_API_KEY", "")
+        except Exception:
+            pass
     if not api_key:
         raise ValueError(
             "ANTHROPIC_API_KEY is not set. "
