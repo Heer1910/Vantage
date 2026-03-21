@@ -1,0 +1,1001 @@
+date,product,category,region,quantity,unit_price,revenue
+2023-01-01,Dumbbells,Sports,Southwest,15,111.14,1667.1
+2023-01-01,Green Tea,Food & Beverage,Midwest,19,19.5,370.5
+2023-01-02,Granola,Food & Beverage,Southwest,40,107.67,4306.8
+2023-01-03,Polo Shirt,Clothing,West,30,35.79,1073.7
+2023-01-03,Protein Bars,Food & Beverage,Southwest,12,93.69,1124.28
+2023-01-04,Yoga Mat,Sports,Southeast,49,81.09,3973.41
+2023-01-05,Jump Rope,Sports,Midwest,16,38.75,620.0
+2023-01-06,Jump Rope,Sports,Southwest,3,129.69,389.07
+2023-01-06,Smart Watch,Electronics,Southeast,4,141.62,566.48
+2023-01-07,Running Shoes,Clothing,West,26,19.16,498.16
+2023-01-08,Jump Rope,Sports,Midwest,7,93.45,654.15
+2023-01-09,Face Serum,Beauty,West,36,31.42,1131.12
+2023-01-09,Winter Jacket,Clothing,Southeast,4,31.8,127.2
+2023-01-10,Polo Shirt,Clothing,West,34,62.3,2118.2
+2023-01-11,Hair Oil,Beauty,Southwest,40,127.46,5098.4
+2023-01-11,Sneakers,Clothing,West,24,56.73,1361.52
+2023-01-12,Jump Rope,Sports,Southwest,45,25.43,1144.35
+2023-01-13,Wireless Earbuds,Electronics,Northeast,7,66.39,464.73
+2023-01-14,Water Bottle,Sports,Midwest,17,108.14,1838.38
+2023-01-14,Tablet,Electronics,Southeast,5,139.31,696.55
+2023-01-15,Bluetooth Speaker,Electronics,West,7,128.26,897.82
+2023-01-16,Running Shoes,Clothing,Southwest,48,58.77,2820.96
+2023-01-17,Wall Art,Home & Garden,Midwest,40,44.83,1793.2
+2023-01-17,Tablet,Electronics,Midwest,37,145.9,5398.3
+2023-01-18,USB-C Hub,Electronics,Midwest,26,39.22,1019.72
+2023-01-19,Smart Watch,Electronics,Midwest,42,68.7,2885.4
+2023-01-19,Bluetooth Speaker,Electronics,Southwest,32,105.85,3387.2
+2023-01-20,Coffee Beans,Food & Beverage,Midwest,29,38.18,1107.22
+2023-01-21,Wall Art,Home & Garden,Northeast,2,95.53,191.06
+2023-01-22,Granola,Food & Beverage,West,28,36.67,1026.76
+2023-01-22,Sunscreen SPF50,Beauty,Northeast,28,56.66,1586.48
+2023-01-23,Wireless Earbuds,Electronics,West,27,66.93,1807.11
+2023-01-24,Protein Bars,Food & Beverage,Midwest,3,6.01,18.03
+2023-01-25,USB-C Hub,Electronics,West,33,22.38,738.54
+2023-01-25,LED Desk Lamp,Home & Garden,Southeast,49,14.41,706.09
+2023-01-26,Jump Rope,Sports,Northeast,39,77.1,3006.9
+2023-01-27,Protein Bars,Food & Beverage,Southeast,17,43.68,742.56
+2023-01-28,Polo Shirt,Clothing,Northeast,23,45.4,1044.2
+2023-01-28,Tablet,Electronics,Southeast,2,81.99,163.98
+2023-01-29,Hair Oil,Beauty,Northeast,11,58.6,644.6
+2023-01-30,Sheet Masks,Beauty,Midwest,34,96.86,3293.24
+2023-01-30,Wireless Earbuds,Electronics,Midwest,6,105.89,635.34
+2023-01-31,Jump Rope,Sports,Midwest,36,7.41,266.76
+2023-02-01,Wall Art,Home & Garden,Northeast,32,18.95,606.4
+2023-02-02,Smart Watch,Electronics,West,40,24.94,997.6
+2023-02-02,Wireless Earbuds,Electronics,Southeast,23,83.51,1920.73
+2023-02-03,Wall Art,Home & Garden,Northeast,16,123.5,1976.0
+2023-02-04,Jump Rope,Sports,West,49,40.07,1963.43
+2023-02-05,Smoothie Mix,Food & Beverage,Northeast,32,96.8,3097.6
+2023-02-05,Tablet,Electronics,Midwest,19,110.26,2094.94
+2023-02-06,Yoga Mat,Sports,Northeast,24,128.38,3081.12
+2023-02-07,Jump Rope,Sports,Northeast,35,58.98,2064.3
+2023-02-07,LED Desk Lamp,Home & Garden,Southeast,29,46.17,1338.93
+2023-02-08,Denim Jeans,Clothing,West,16,149.2,2387.2
+2023-02-09,Bluetooth Speaker,Electronics,West,33,76.61,2528.13
+2023-02-10,LED Desk Lamp,Home & Garden,Midwest,33,83.67,2761.11
+2023-02-10,Candle Set,Home & Garden,Southeast,8,96.52,772.16
+2023-02-11,Protein Bars,Food & Beverage,Northeast,28,101.99,2855.72
+2023-02-12,Granola,Food & Beverage,Midwest,48,45.71,2194.08
+2023-02-13,Wireless Earbuds,Electronics,Southwest,44,141.37,6220.28
+2023-02-13,Sheet Masks,Beauty,Northeast,6,58.67,352.02
+2023-02-14,Smoothie Mix,Food & Beverage,Midwest,49,85.15,4172.35
+2023-02-15,Yoga Mat,Sports,Northeast,21,32.68,686.28
+2023-02-16,Plant Pot Set,Home & Garden,Southeast,25,62.23,1555.75
+2023-02-16,Plant Pot Set,Home & Garden,Southeast,32,102.32,3274.24
+2023-02-17,Plant Pot Set,Home & Garden,Northeast,2,51.77,103.54
+2023-02-18,Tablet,Electronics,Southeast,48,85.16,4087.68
+2023-02-18,Denim Jeans,Clothing,West,25,93.67,2341.75
+2023-02-19,Running Shoes,Clothing,Northeast,36,120.75,4347.0
+2023-02-20,Hair Oil,Beauty,Southeast,23,9.0,207.0
+2023-02-21,Denim Jeans,Clothing,Southwest,25,27.48,687.0
+2023-02-21,Lip Balm,Beauty,Southeast,22,41.29,908.38
+2023-02-22,Sunscreen SPF50,Beauty,Southwest,37,80.73,2987.01
+2023-02-23,Jump Rope,Sports,West,44,95.32,4194.08
+2023-02-24,Sheet Masks,Beauty,Midwest,32,82.05,2625.6
+2023-02-24,Dumbbells,Sports,Northeast,42,51.83,2176.86
+2023-02-25,Wall Art,Home & Garden,Southwest,26,8.68,225.68
+2023-02-26,Face Serum,Beauty,Southeast,12,64.3,771.6
+2023-02-26,Running Shoes,Clothing,Northeast,47,41.29,1940.63
+2023-02-27,Smoothie Mix,Food & Beverage,Southwest,1,143.46,143.46
+2023-02-28,Sheet Masks,Beauty,Midwest,3,40.92,122.76
+2023-03-01,Protein Bars,Food & Beverage,Southwest,29,21.83,633.07
+2023-03-01,Bluetooth Speaker,Electronics,Southeast,5,73.76,368.8
+2023-03-02,Sneakers,Clothing,Southwest,39,55.21,2153.19
+2023-03-03,Winter Jacket,Clothing,West,5,133.57,667.85
+2023-03-04,Winter Jacket,Clothing,Northeast,19,77.95,1481.05
+2023-03-04,Smoothie Mix,Food & Beverage,Southeast,4,94.3,377.2
+2023-03-05,Bluetooth Speaker,Electronics,West,32,141.33,4522.56
+2023-03-06,Denim Jeans,Clothing,Midwest,33,71.45,2357.85
+2023-03-07,Candle Set,Home & Garden,Northeast,12,60.98,731.76
+2023-03-07,Denim Jeans,Clothing,West,44,44.72,1967.68
+2023-03-08,Lip Balm,Beauty,Southeast,35,53.8,1883.0
+2023-03-09,Green Tea,Food & Beverage,Southeast,10,8.37,83.7
+2023-03-09,LED Desk Lamp,Home & Garden,Southwest,7,22.13,154.91
+2023-03-10,Sneakers,Clothing,West,11,132.23,1454.53
+2023-03-11,USB-C Hub,Electronics,Northeast,36,30.73,1106.28
+2023-03-12,LED Desk Lamp,Home & Garden,Southeast,35,64.83,2269.05
+2023-03-12,USB-C Hub,Electronics,Southwest,12,67.2,806.4
+2023-03-13,Tablet,Electronics,Northeast,41,59.77,2450.57
+2023-03-14,Hair Oil,Beauty,Southwest,48,61.49,2951.52
+2023-03-15,Throw Blanket,Home & Garden,Southwest,49,12.76,625.24
+2023-03-15,Tablet,Electronics,West,12,56.46,677.52
+2023-03-16,Hair Oil,Beauty,Southwest,19,76.49,1453.31
+2023-03-17,Coffee Beans,Food & Beverage,Midwest,12,52.66,631.92
+2023-03-17,Granola,Food & Beverage,Southwest,23,118.29,2720.67
+2023-03-18,Green Tea,Food & Beverage,Southeast,39,149.41,5826.99
+2023-03-19,Coffee Beans,Food & Beverage,Midwest,23,84.16,1935.68
+2023-03-20,Polo Shirt,Clothing,West,9,115.42,1038.78
+2023-03-20,USB-C Hub,Electronics,Southwest,38,17.2,653.6
+2023-03-21,Running Shoes,Clothing,Southwest,27,107.41,2900.07
+2023-03-22,Smoothie Mix,Food & Beverage,Southwest,38,148.06,5626.28
+2023-03-23,Bluetooth Speaker,Electronics,Northeast,17,142.35,2419.95
+2023-03-23,Granola,Food & Beverage,Midwest,36,59.56,2144.16
+2023-03-24,Granola,Food & Beverage,Southeast,39,66.51,2593.89
+2023-03-25,Throw Blanket,Home & Garden,West,45,6.65,299.25
+2023-03-26,Lip Balm,Beauty,Southwest,20,22.23,444.6
+2023-03-26,Wireless Earbuds,Electronics,Northeast,3,89.59,268.77
+2023-03-27,Yoga Mat,Sports,Southwest,25,130.95,3273.75
+2023-03-28,Lip Balm,Beauty,Southwest,44,146.8,6459.2
+2023-03-28,Smoothie Mix,Food & Beverage,Midwest,16,81.52,1304.32
+2023-03-29,Dumbbells,Sports,West,36,85.31,3071.16
+2023-03-30,Smart Watch,Electronics,Northeast,47,96.26,4524.22
+2023-03-31,Coffee Beans,Food & Beverage,Midwest,16,111.88,1790.08
+2023-03-31,Resistance Bands,Sports,West,32,13.39,428.48
+2023-04-01,Dumbbells,Sports,West,8,29.6,236.8
+2023-04-02,Winter Jacket,Clothing,Northeast,28,16.27,455.56
+2023-04-03,Water Bottle,Sports,Southwest,17,45.57,774.69
+2023-04-03,Dumbbells,Sports,Southwest,28,44.29,1240.12
+2023-04-04,Sunscreen SPF50,Beauty,Southwest,6,142.72,856.32
+2023-04-05,Smart Watch,Electronics,Southeast,10,140.25,1402.5
+2023-04-05,Candle Set,Home & Garden,Northeast,5,8.82,44.1
+2023-04-06,Face Serum,Beauty,Northeast,18,148.16,2666.88
+2023-04-07,Candle Set,Home & Garden,Midwest,26,60.23,1565.98
+2023-04-08,LED Desk Lamp,Home & Garden,Northeast,13,14.21,184.73
+2023-04-08,LED Desk Lamp,Home & Garden,West,21,13.17,276.57
+2023-04-09,USB-C Hub,Electronics,Midwest,31,113.74,3525.94
+2023-04-10,Smoothie Mix,Food & Beverage,Midwest,37,114.78,4246.86
+2023-04-11,USB-C Hub,Electronics,Northeast,14,34.73,486.22
+2023-04-11,Candle Set,Home & Garden,Northeast,13,35.05,455.65
+2023-04-12,Smart Watch,Electronics,Southeast,28,43.96,1230.88
+2023-04-13,Winter Jacket,Clothing,West,3,80.42,241.26
+2023-04-14,Bluetooth Speaker,Electronics,Midwest,5,17.82,89.1
+2023-04-14,Wireless Earbuds,Electronics,Southwest,48,74.61,3581.28
+2023-04-15,Green Tea,Food & Beverage,West,11,35.88,394.68
+2023-04-16,Winter Jacket,Clothing,Midwest,34,97.31,3308.54
+2023-04-16,Plant Pot Set,Home & Garden,West,38,70.38,2674.44
+2023-04-17,Lip Balm,Beauty,West,17,142.68,2425.56
+2023-04-18,Running Shoes,Clothing,West,10,116.49,1164.9
+2023-04-19,Green Tea,Food & Beverage,Southwest,6,76.43,458.58
+2023-04-19,Sunscreen SPF50,Beauty,Midwest,43,39.82,1712.26
+2023-04-20,Tablet,Electronics,West,16,97.93,1566.88
+2023-04-21,Tablet,Electronics,Southwest,32,73.72,2359.04
+2023-04-22,Sneakers,Clothing,Southeast,19,124.16,2359.04
+2023-04-22,Resistance Bands,Sports,Northeast,22,17.86,392.92
+2023-04-23,Protein Bars,Food & Beverage,Southeast,12,34.92,419.04
+2023-04-24,Smart Watch,Electronics,Southeast,45,51.63,2323.35
+2023-04-24,Wireless Earbuds,Electronics,Midwest,22,16.86,370.92
+2023-04-25,Protein Bars,Food & Beverage,Northeast,26,130.9,3403.4
+2023-04-26,Candle Set,Home & Garden,Southeast,15,82.81,1242.15
+2023-04-27,Resistance Bands,Sports,Midwest,45,14.04,631.8
+2023-04-27,Throw Blanket,Home & Garden,Midwest,47,127.44,5989.68
+2023-04-28,Dumbbells,Sports,Midwest,18,69.87,1257.66
+2023-04-29,LED Desk Lamp,Home & Garden,Northeast,37,31.43,1162.91
+2023-04-30,Smart Watch,Electronics,Southwest,44,38.82,1708.08
+2023-04-30,Yoga Mat,Sports,Northeast,4,56.49,225.96
+2023-05-01,Green Tea,Food & Beverage,Southeast,47,89.71,4216.37
+2023-05-02,Bluetooth Speaker,Electronics,Southwest,19,59.92,1138.48
+2023-05-03,Hair Oil,Beauty,Midwest,26,93.1,2420.6
+2023-05-03,Candle Set,Home & Garden,Northeast,6,92.84,557.04
+2023-05-04,Smoothie Mix,Food & Beverage,West,6,57.98,347.88
+2023-05-05,Sunscreen SPF50,Beauty,Northeast,30,30.14,904.2
+2023-05-05,Throw Blanket,Home & Garden,West,31,64.51,1999.81
+2023-05-06,Lip Balm,Beauty,West,20,145.57,2911.4
+2023-05-07,Face Serum,Beauty,Midwest,30,29.78,893.4
+2023-05-08,Face Serum,Beauty,Southeast,2,85.73,171.46
+2023-05-08,Candle Set,Home & Garden,Southeast,44,34.74,1528.56
+2023-05-09,Hair Oil,Beauty,West,19,33.93,644.67
+2023-05-10,Bluetooth Speaker,Electronics,Southwest,47,107.55,5054.85
+2023-05-11,Sunscreen SPF50,Beauty,Midwest,36,51.49,1853.64
+2023-05-11,Smart Watch,Electronics,Southeast,10,84.55,845.5
+2023-05-12,Resistance Bands,Sports,West,13,104.26,1355.38
+2023-05-13,USB-C Hub,Electronics,Midwest,9,115.23,1037.07
+2023-05-13,Sunscreen SPF50,Beauty,Southwest,30,20.47,614.1
+2023-05-14,Hair Oil,Beauty,Southwest,44,64.24,2826.56
+2023-05-15,LED Desk Lamp,Home & Garden,Midwest,34,31.28,1063.52
+2023-05-16,Bluetooth Speaker,Electronics,Northeast,29,25.27,732.83
+2023-05-16,Granola,Food & Beverage,Southwest,30,124.64,3739.2
+2023-05-17,Coffee Beans,Food & Beverage,West,14,80.84,1131.76
+2023-05-18,USB-C Hub,Electronics,Midwest,42,61.9,2599.8
+2023-05-19,Protein Bars,Food & Beverage,Northeast,23,68.62,1578.26
+2023-05-19,Wireless Earbuds,Electronics,Southeast,33,61.76,2038.08
+2023-05-20,Sheet Masks,Beauty,Midwest,40,38.21,1528.4
+2023-05-21,Sunscreen SPF50,Beauty,Southeast,7,110.93,776.51
+2023-05-22,Dumbbells,Sports,Midwest,33,82.35,2717.55
+2023-05-22,Dumbbells,Sports,Southwest,38,114.1,4335.8
+2023-05-23,Coffee Beans,Food & Beverage,Southeast,33,9.86,325.38
+2023-05-24,Sneakers,Clothing,Southwest,10,54.6,546.0
+2023-05-24,Dumbbells,Sports,Southwest,24,92.57,2221.68
+2023-05-25,Smoothie Mix,Food & Beverage,Southwest,47,64.3,3022.1
+2023-05-26,Denim Jeans,Clothing,West,31,91.77,2844.87
+2023-05-27,Resistance Bands,Sports,West,43,91.86,3949.98
+2023-05-27,Plant Pot Set,Home & Garden,Southeast,40,89.59,3583.6
+2023-05-28,Sunscreen SPF50,Beauty,Southeast,12,137.22,1646.64
+2023-05-29,Wireless Earbuds,Electronics,Midwest,47,110.28,5183.16
+2023-05-30,Jump Rope,Sports,Southwest,36,138.22,4975.92
+2023-05-30,Green Tea,Food & Beverage,Southeast,49,88.56,4339.44
+2023-05-31,Tablet,Electronics,Northeast,29,20.12,583.48
+2023-06-01,Sunscreen SPF50,Beauty,Southwest,23,22.81,524.63
+2023-06-01,Green Tea,Food & Beverage,Northeast,46,32.02,1472.92
+2023-06-02,Tablet,Electronics,Northeast,40,93.14,3725.6
+2023-06-03,Protein Bars,Food & Beverage,Southwest,10,121.41,1214.1
+2023-06-04,Running Shoes,Clothing,Northeast,35,62.73,2195.55
+2023-06-04,Denim Jeans,Clothing,Southeast,38,55.22,2098.36
+2023-06-05,Plant Pot Set,Home & Garden,Midwest,27,70.57,1905.39
+2023-06-06,Wall Art,Home & Garden,West,24,88.76,2130.24
+2023-06-07,Sheet Masks,Beauty,Southwest,24,50.16,1203.84
+2023-06-07,Plant Pot Set,Home & Garden,Northeast,28,35.84,1003.52
+2023-06-08,Bluetooth Speaker,Electronics,West,41,26.56,1088.96
+2023-06-09,Protein Bars,Food & Beverage,Southwest,7,91.33,639.31
+2023-06-10,Sunscreen SPF50,Beauty,Southwest,19,55.66,1057.54
+2023-06-10,USB-C Hub,Electronics,Midwest,29,73.45,2130.05
+2023-06-11,Running Shoes,Clothing,Southeast,14,108.54,1519.56
+2023-06-12,Polo Shirt,Clothing,Midwest,49,63.11,3092.39
+2023-06-12,Yoga Mat,Sports,Midwest,8,129.96,1039.68
+2023-06-13,Winter Jacket,Clothing,West,19,98.38,1869.22
+2023-06-14,Bluetooth Speaker,Electronics,Southwest,32,108.82,3482.24
+2023-06-15,Wireless Earbuds,Electronics,Midwest,3,38.51,115.53
+2023-06-15,Protein Bars,Food & Beverage,Midwest,47,87.57,4115.79
+2023-06-16,Bluetooth Speaker,Electronics,Midwest,47,109.52,5147.44
+2023-06-17,Sunscreen SPF50,Beauty,Southwest,16,62.59,1001.44
+2023-06-18,Sheet Masks,Beauty,Southeast,14,47.51,665.14
+2023-06-18,Running Shoes,Clothing,Southwest,23,127.98,2943.54
+2023-06-19,Wall Art,Home & Garden,Southeast,29,66.11,1917.19
+2023-06-20,USB-C Hub,Electronics,Southeast,20,53.7,1074.0
+2023-06-20,Wall Art,Home & Garden,Northeast,20,95.5,1910.0
+2023-06-21,Sneakers,Clothing,Southeast,44,36.83,1620.52
+2023-06-22,Hair Oil,Beauty,Midwest,24,21.56,517.44
+2023-06-23,Face Serum,Beauty,Southeast,17,43.96,747.32
+2023-06-23,Protein Bars,Food & Beverage,Midwest,39,36.61,1427.79
+2023-06-24,Hair Oil,Beauty,Southwest,26,81.23,2111.98
+2023-06-25,Sneakers,Clothing,Southwest,11,124.27,1366.97
+2023-06-26,Polo Shirt,Clothing,Northeast,41,44.74,1834.34
+2023-06-26,Protein Bars,Food & Beverage,Southwest,38,125.31,4761.78
+2023-06-27,Sneakers,Clothing,Midwest,27,135.5,3658.5
+2023-06-28,Polo Shirt,Clothing,Southeast,45,101.43,4564.35
+2023-06-29,Protein Bars,Food & Beverage,Southeast,26,63.64,1654.64
+2023-06-29,Lip Balm,Beauty,Southwest,43,31.73,1364.39
+2023-06-30,Water Bottle,Sports,Midwest,26,14.9,387.4
+2023-07-01,Wall Art,Home & Garden,Midwest,49,109.62,5371.38
+2023-07-01,Lip Balm,Beauty,Southwest,47,143.34,6736.98
+2023-07-02,Smart Watch,Electronics,Midwest,36,83.28,2998.08
+2023-07-03,Wall Art,Home & Garden,Midwest,43,127.73,5492.39
+2023-07-04,Coffee Beans,Food & Beverage,Southeast,34,95.38,3242.92
+2023-07-04,Protein Bars,Food & Beverage,Northeast,9,55.97,503.73
+2023-07-05,USB-C Hub,Electronics,Northeast,43,91.75,3945.25
+2023-07-06,Throw Blanket,Home & Garden,Midwest,37,5.34,197.58
+2023-07-07,Lip Balm,Beauty,West,12,57.34,688.08
+2023-07-07,Throw Blanket,Home & Garden,Southeast,49,24.84,1217.16
+2023-07-08,Wireless Earbuds,Electronics,Midwest,47,17.57,825.79
+2023-07-09,Protein Bars,Food & Beverage,Northeast,23,109.99,2529.77
+2023-07-09,Running Shoes,Clothing,Southeast,12,37.08,444.96
+2023-07-10,USB-C Hub,Electronics,Southeast,26,10.72,278.72
+2023-07-11,Smart Watch,Electronics,Southwest,21,73.62,1546.02
+2023-07-12,Tablet,Electronics,Midwest,48,21.72,1042.56
+2023-07-12,Green Tea,Food & Beverage,Midwest,31,130.0,4030.0
+2023-07-13,Denim Jeans,Clothing,Midwest,42,98.46,4135.32
+2023-07-14,Jump Rope,Sports,Southwest,45,16.16,727.2
+2023-07-15,Plant Pot Set,Home & Garden,Northeast,23,14.48,333.04
+2023-07-15,Dumbbells,Sports,Southeast,22,51.22,1126.84
+2023-07-16,USB-C Hub,Electronics,Southeast,42,132.12,5549.04
+2023-07-17,Plant Pot Set,Home & Garden,Southwest,34,8.08,274.72
+2023-07-18,Green Tea,Food & Beverage,Midwest,32,140.23,4487.36
+2023-07-18,Hair Oil,Beauty,Southwest,29,116.24,3370.96
+2023-07-19,Sheet Masks,Beauty,West,44,95.99,4223.56
+2023-07-20,Smart Watch,Electronics,West,30,65.58,1967.4
+2023-07-20,Protein Bars,Food & Beverage,Southwest,30,5.49,164.7
+2023-07-21,Lip Balm,Beauty,Southwest,4,108.76,435.04
+2023-07-22,Wireless Earbuds,Electronics,Northeast,46,11.54,530.84
+2023-07-23,Bluetooth Speaker,Electronics,Southwest,12,143.68,1724.16
+2023-07-23,Smoothie Mix,Food & Beverage,Midwest,43,90.34,3884.62
+2023-07-24,Sheet Masks,Beauty,West,34,29.22,993.48
+2023-07-25,Water Bottle,Sports,Southwest,8,141.7,1133.6
+2023-07-26,Candle Set,Home & Garden,Southeast,46,38.45,1768.7
+2023-07-26,Smart Watch,Electronics,Midwest,41,32.03,1313.23
+2023-07-27,Sheet Masks,Beauty,Northeast,5,96.32,481.6
+2023-07-28,Tablet,Electronics,Southwest,20,149.26,2985.2
+2023-07-28,Plant Pot Set,Home & Garden,Northeast,35,114.94,4022.9
+2023-07-29,Throw Blanket,Home & Garden,Southwest,38,95.33,3622.54
+2023-07-30,Wireless Earbuds,Electronics,Southeast,4,89.11,356.44
+2023-07-31,LED Desk Lamp,Home & Garden,Southwest,3,44.58,133.74
+2023-07-31,Tablet,Electronics,Southeast,25,128.57,3214.25
+2023-08-01,Wireless Earbuds,Electronics,Southeast,5,111.61,558.05
+2023-08-02,Water Bottle,Sports,Southeast,5,12.07,60.35
+2023-08-03,Sheet Masks,Beauty,Southwest,48,104.07,4995.36
+2023-08-03,Protein Bars,Food & Beverage,Southwest,40,133.02,5320.8
+2023-08-04,Plant Pot Set,Home & Garden,Southeast,3,55.43,166.29
+2023-08-05,Candle Set,Home & Garden,Midwest,45,111.42,5013.9
+2023-08-06,Yoga Mat,Sports,Midwest,48,107.71,5170.08
+2023-08-06,Protein Bars,Food & Beverage,Midwest,42,20.35,854.7
+2023-08-07,Hair Oil,Beauty,Southwest,7,132.84,929.88
+2023-08-08,Running Shoes,Clothing,Southeast,31,124.74,3866.94
+2023-08-08,Candle Set,Home & Garden,Southeast,30,136.76,4102.8
+2023-08-09,Resistance Bands,Sports,West,14,114.71,1605.94
+2023-08-10,Sneakers,Clothing,Northeast,46,52.33,2407.18
+2023-08-11,Smart Watch,Electronics,Midwest,24,123.71,2969.04
+2023-08-11,Lip Balm,Beauty,West,41,144.63,5929.83
+2023-08-12,Dumbbells,Sports,West,29,119.38,3462.02
+2023-08-13,Resistance Bands,Sports,Northeast,4,48.64,194.56
+2023-08-14,Yoga Mat,Sports,Southeast,10,73.67,736.7
+2023-08-14,Plant Pot Set,Home & Garden,Southwest,14,146.16,2046.24
+2023-08-15,Jump Rope,Sports,West,35,91.19,3191.65
+2023-08-16,Coffee Beans,Food & Beverage,Midwest,33,51.92,1713.36
+2023-08-16,Plant Pot Set,Home & Garden,Southeast,23,69.66,1602.18
+2023-08-17,Granola,Food & Beverage,Northeast,17,19.82,336.94
+2023-08-18,Smoothie Mix,Food & Beverage,Southeast,11,37.01,407.11
+2023-08-19,Hair Oil,Beauty,Midwest,22,24.04,528.88
+2023-08-19,Bluetooth Speaker,Electronics,Southwest,28,111.03,3108.84
+2023-08-20,Wall Art,Home & Garden,Southwest,6,115.21,691.26
+2023-08-21,Throw Blanket,Home & Garden,Southeast,1,51.51,51.51
+2023-08-22,Coffee Beans,Food & Beverage,West,49,99.49,4875.01
+2023-08-22,Polo Shirt,Clothing,West,16,83.77,1340.32
+2023-08-23,Face Serum,Beauty,Midwest,17,18.22,309.74
+2023-08-24,Lip Balm,Beauty,West,7,95.8,670.6
+2023-08-25,Granola,Food & Beverage,Northeast,3,31.89,95.67
+2023-08-25,Face Serum,Beauty,Northeast,44,40.89,1799.16
+2023-08-26,Face Serum,Beauty,Southwest,22,89.39,1966.58
+2023-08-27,Denim Jeans,Clothing,Southwest,13,26.69,346.97
+2023-08-27,Winter Jacket,Clothing,Midwest,46,146.33,6731.18
+2023-08-28,Protein Bars,Food & Beverage,Northeast,33,143.13,4723.29
+2023-08-29,Throw Blanket,Home & Garden,West,24,26.16,627.84
+2023-08-30,Bluetooth Speaker,Electronics,Southeast,20,55.17,1103.4
+2023-08-30,Yoga Mat,Sports,Northeast,2,82.47,164.94
+2023-08-31,Protein Bars,Food & Beverage,Southeast,13,16.39,213.07
+2023-09-01,Lip Balm,Beauty,Southeast,46,105.51,4853.46
+2023-09-02,Polo Shirt,Clothing,Southwest,49,142.97,7005.53
+2023-09-02,Throw Blanket,Home & Garden,Northeast,6,91.24,547.44
+2023-09-03,Smart Watch,Electronics,Southeast,12,131.29,1575.48
+2023-09-04,Jump Rope,Sports,Midwest,47,123.15,5788.05
+2023-09-04,Jump Rope,Sports,Southeast,6,123.51,741.06
+2023-09-05,LED Desk Lamp,Home & Garden,Southeast,42,68.6,2881.2
+2023-09-06,Hair Oil,Beauty,Northeast,23,99.29,2283.67
+2023-09-07,Coffee Beans,Food & Beverage,West,19,146.5,2783.5
+2023-09-07,Smoothie Mix,Food & Beverage,Southeast,32,77.24,2471.68
+2023-09-08,Lip Balm,Beauty,Northeast,19,38.13,724.47
+2023-09-09,Throw Blanket,Home & Garden,Midwest,28,33.93,950.04
+2023-09-10,Smoothie Mix,Food & Beverage,West,15,42.36,635.4
+2023-09-10,USB-C Hub,Electronics,West,31,65.31,2024.61
+2023-09-11,Granola,Food & Beverage,West,28,58.8,1646.4
+2023-09-12,Resistance Bands,Sports,Northeast,49,79.53,3896.97
+2023-09-13,Resistance Bands,Sports,Southeast,34,75.57,2569.38
+2023-09-13,Polo Shirt,Clothing,Midwest,6,99.98,599.88
+2023-09-14,Plant Pot Set,Home & Garden,Southeast,12,60.66,727.92
+2023-09-15,Protein Bars,Food & Beverage,West,35,117.52,4113.2
+2023-09-15,Lip Balm,Beauty,Southeast,44,59.06,2598.64
+2023-09-16,Smoothie Mix,Food & Beverage,West,38,76.38,2902.44
+2023-09-17,Protein Bars,Food & Beverage,Northeast,20,90.98,1819.6
+2023-09-18,LED Desk Lamp,Home & Garden,Southwest,28,42.43,1188.04
+2023-09-18,Protein Bars,Food & Beverage,West,40,91.81,3672.4
+2023-09-19,Coffee Beans,Food & Beverage,Southeast,10,15.66,156.6
+2023-09-20,Green Tea,Food & Beverage,Northeast,12,125.19,1502.28
+2023-09-21,Granola,Food & Beverage,Northeast,8,94.49,755.92
+2023-09-21,Bluetooth Speaker,Electronics,Southwest,28,10.32,288.96
+2023-09-22,Granola,Food & Beverage,West,37,118.36,4379.32
+2023-09-23,Jump Rope,Sports,Southeast,20,44.11,882.2
+2023-09-23,USB-C Hub,Electronics,Northeast,20,12.5,250.0
+2023-09-24,Candle Set,Home & Garden,Midwest,5,19.98,99.9
+2023-09-25,Hair Oil,Beauty,Southeast,42,62.62,2630.04
+2023-09-26,Throw Blanket,Home & Garden,Southwest,34,51.85,1762.9
+2023-09-26,Tablet,Electronics,West,23,101.7,2339.1
+2023-09-27,Sheet Masks,Beauty,West,16,141.27,2260.32
+2023-09-28,Sneakers,Clothing,Southwest,1,110.97,110.97
+2023-09-29,Sheet Masks,Beauty,Southeast,47,30.69,1442.43
+2023-09-29,Smart Watch,Electronics,Southeast,43,104.07,4475.01
+2023-09-30,Running Shoes,Clothing,Northeast,26,130.99,3405.74
+2023-10-01,Water Bottle,Sports,West,8,120.35,962.8
+2023-10-02,Wireless Earbuds,Electronics,Southwest,19,141.43,2687.17
+2023-10-02,Protein Bars,Food & Beverage,Southeast,26,55.54,1444.04
+2023-10-03,Running Shoes,Clothing,Southwest,33,64.0,2112.0
+2023-10-04,USB-C Hub,Electronics,Midwest,13,46.86,609.18
+2023-10-04,Resistance Bands,Sports,Midwest,38,52.42,1991.96
+2023-10-05,Lip Balm,Beauty,Midwest,18,132.29,2381.22
+2023-10-06,Coffee Beans,Food & Beverage,Northeast,1,22.43,22.43
+2023-10-07,Protein Bars,Food & Beverage,Southwest,12,93.43,1121.16
+2023-10-07,Wall Art,Home & Garden,Northeast,29,70.06,2031.74
+2023-10-08,Tablet,Electronics,Midwest,44,7.13,313.72
+2023-10-09,Plant Pot Set,Home & Garden,Midwest,2,72.21,144.42
+2023-10-10,Green Tea,Food & Beverage,West,8,80.27,642.16
+2023-10-10,Smoothie Mix,Food & Beverage,Southwest,26,20.79,540.54
+2023-10-11,Sneakers,Clothing,Midwest,15,82.37,1235.55
+2023-10-12,Lip Balm,Beauty,Southwest,44,143.55,6316.2
+2023-10-12,Coffee Beans,Food & Beverage,West,16,98.88,1582.08
+2023-10-13,Bluetooth Speaker,Electronics,West,11,60.11,661.21
+2023-10-14,Smoothie Mix,Food & Beverage,Southwest,22,33.21,730.62
+2023-10-15,Dumbbells,Sports,West,46,49.56,2279.76
+2023-10-15,Plant Pot Set,Home & Garden,Southeast,36,109.06,3926.16
+2023-10-16,USB-C Hub,Electronics,Midwest,4,124.36,497.44
+2023-10-17,Resistance Bands,Sports,Northeast,39,81.15,3164.85
+2023-10-18,Sneakers,Clothing,West,42,138.07,5798.94
+2023-10-18,Yoga Mat,Sports,Southeast,44,11.29,496.76
+2023-10-19,Candle Set,Home & Garden,West,22,123.78,2723.16
+2023-10-20,Smart Watch,Electronics,Southeast,9,98.76,888.84
+2023-10-21,USB-C Hub,Electronics,Northeast,42,135.5,5691.0
+2023-10-21,Denim Jeans,Clothing,Midwest,37,48.8,1805.6
+2023-10-22,Jump Rope,Sports,Southeast,39,101.79,3969.81
+2023-10-23,Wall Art,Home & Garden,Southeast,10,70.51,705.1
+2023-10-23,Protein Bars,Food & Beverage,Northeast,35,131.04,4586.4
+2023-10-24,Protein Bars,Food & Beverage,Midwest,22,8.43,185.46
+2023-10-25,Water Bottle,Sports,Southwest,10,42.25,422.5
+2023-10-26,Protein Bars,Food & Beverage,Midwest,25,148.23,3705.75
+2023-10-26,Green Tea,Food & Beverage,Southwest,3,69.19,207.57
+2023-10-27,Wireless Earbuds,Electronics,West,11,148.73,1636.03
+2023-10-28,Sunscreen SPF50,Beauty,Southeast,4,110.03,440.12
+2023-10-29,Granola,Food & Beverage,West,40,98.57,3942.8
+2023-10-29,LED Desk Lamp,Home & Garden,Northeast,8,58.21,465.68
+2023-10-30,Dumbbells,Sports,West,49,125.62,6155.38
+2023-10-31,Granola,Food & Beverage,Southeast,27,97.82,2641.14
+2023-10-31,Wall Art,Home & Garden,Southeast,3,32.6,97.8
+2023-11-01,Resistance Bands,Sports,Southeast,38,85.88,3263.44
+2023-11-02,Hair Oil,Beauty,Southeast,8,89.17,713.36
+2023-11-03,Dumbbells,Sports,Northeast,13,97.07,1261.91
+2023-11-03,Running Shoes,Clothing,West,16,5.18,82.88
+2023-11-04,Water Bottle,Sports,West,16,60.47,967.52
+2023-11-05,Candle Set,Home & Garden,West,20,139.42,2788.4
+2023-11-06,Wireless Earbuds,Electronics,Southeast,30,80.54,2416.2
+2023-11-06,USB-C Hub,Electronics,West,16,78.49,1255.84
+2023-11-07,Sneakers,Clothing,Southeast,14,22.06,308.84
+2023-11-08,Green Tea,Food & Beverage,Midwest,41,17.71,726.11
+2023-11-09,Wireless Earbuds,Electronics,West,1,49.3,49.3
+2023-11-09,Lip Balm,Beauty,Midwest,4,131.63,526.52
+2023-11-10,Sunscreen SPF50,Beauty,Southwest,15,148.86,2232.9
+2023-11-11,Resistance Bands,Sports,Southeast,12,139.94,1679.28
+2023-11-11,Lip Balm,Beauty,Southeast,45,60.19,2708.55
+2023-11-12,Sunscreen SPF50,Beauty,Northeast,16,35.74,571.84
+2023-11-13,Coffee Beans,Food & Beverage,Midwest,2,27.3,54.6
+2023-11-14,Polo Shirt,Clothing,Northeast,18,97.94,1762.92
+2023-11-14,Running Shoes,Clothing,Northeast,33,138.8,4580.4
+2023-11-15,Sheet Masks,Beauty,Northeast,3,143.16,429.48
+2023-11-16,Smoothie Mix,Food & Beverage,Southeast,34,14.88,505.92
+2023-11-17,Yoga Mat,Sports,West,15,144.65,2169.75
+2023-11-17,Jump Rope,Sports,West,13,140.79,1830.27
+2023-11-18,Sneakers,Clothing,Midwest,6,5.05,30.3
+2023-11-19,Lip Balm,Beauty,Midwest,23,27.04,621.92
+2023-11-19,Coffee Beans,Food & Beverage,Southeast,34,71.67,2436.78
+2023-11-20,Sunscreen SPF50,Beauty,Northeast,31,105.78,3279.18
+2023-11-21,LED Desk Lamp,Home & Garden,West,35,15.82,553.7
+2023-11-22,Sunscreen SPF50,Beauty,West,7,105.36,737.52
+2023-11-22,Bluetooth Speaker,Electronics,Northeast,4,149.52,598.08
+2023-11-23,Granola,Food & Beverage,West,29,95.46,2768.34
+2023-11-24,Lip Balm,Beauty,Southwest,37,133.56,4941.72
+2023-11-25,Throw Blanket,Home & Garden,Southwest,28,74.84,2095.52
+2023-11-25,Smoothie Mix,Food & Beverage,Southwest,2,24.4,48.8
+2023-11-26,Sheet Masks,Beauty,Southwest,10,103.74,1037.4
+2023-11-27,USB-C Hub,Electronics,Southwest,21,125.97,2645.37
+2023-11-28,Smoothie Mix,Food & Beverage,West,18,14.37,258.66
+2023-11-28,Tablet,Electronics,Southwest,49,84.45,4138.05
+2023-11-29,Dumbbells,Sports,Southeast,26,23.44,609.44
+2023-11-30,Jump Rope,Sports,Northeast,18,74.02,1332.36
+2023-11-30,Granola,Food & Beverage,Southwest,29,71.62,2076.98
+2023-12-01,Sneakers,Clothing,Northeast,49,143.52,7032.48
+2023-12-02,Wireless Earbuds,Electronics,Southwest,1,122.29,122.29
+2023-12-03,Smart Watch,Electronics,Midwest,40,71.91,2876.4
+2023-12-03,Denim Jeans,Clothing,Northeast,22,97.32,2141.04
+2023-12-04,Dumbbells,Sports,West,19,20.33,386.27
+2023-12-05,USB-C Hub,Electronics,Northeast,8,11.04,88.32
+2023-12-06,LED Desk Lamp,Home & Garden,Midwest,45,121.31,5458.95
+2023-12-06,USB-C Hub,Electronics,Southeast,20,111.94,2238.8
+2023-12-07,Hair Oil,Beauty,Midwest,11,145.76,1603.36
+2023-12-08,Wall Art,Home & Garden,Southwest,43,64.76,2784.68
+2023-12-08,Lip Balm,Beauty,West,38,16.98,645.24
+2023-12-09,Wireless Earbuds,Electronics,Southeast,9,60.38,543.42
+2023-12-10,LED Desk Lamp,Home & Garden,Northeast,36,94.18,3390.48
+2023-12-11,Wireless Earbuds,Electronics,West,10,120.81,1208.1
+2023-12-11,Plant Pot Set,Home & Garden,West,13,89.45,1162.85
+2023-12-12,Denim Jeans,Clothing,Southeast,10,54.05,540.5
+2023-12-13,Wireless Earbuds,Electronics,West,40,67.65,2706.0
+2023-12-14,Running Shoes,Clothing,West,22,44.7,983.4
+2023-12-14,Granola,Food & Beverage,Northeast,32,76.93,2461.76
+2023-12-15,Coffee Beans,Food & Beverage,Northeast,32,50.95,1630.4
+2023-12-16,Yoga Mat,Sports,Southwest,47,41.57,1953.79
+2023-12-17,Sheet Masks,Beauty,West,8,113.49,907.92
+2023-12-17,Throw Blanket,Home & Garden,Southwest,25,140.92,3523.0
+2023-12-18,Green Tea,Food & Beverage,West,2,24.1,48.2
+2023-12-19,Plant Pot Set,Home & Garden,West,31,75.82,2350.42
+2023-12-19,Coffee Beans,Food & Beverage,Midwest,37,90.6,3352.2
+2023-12-20,Sunscreen SPF50,Beauty,West,23,104.89,2412.47
+2023-12-21,USB-C Hub,Electronics,Southeast,47,28.32,1331.04
+2023-12-22,Bluetooth Speaker,Electronics,West,5,132.81,664.05
+2023-12-22,Plant Pot Set,Home & Garden,Southeast,34,34.59,1176.06
+2023-12-23,Coffee Beans,Food & Beverage,Southwest,27,104.74,2827.98
+2023-12-24,Bluetooth Speaker,Electronics,Southeast,36,5.76,207.36
+2023-12-25,Polo Shirt,Clothing,Northeast,17,6.6,112.2
+2023-12-25,Sneakers,Clothing,Midwest,20,52.41,1048.2
+2023-12-26,Sunscreen SPF50,Beauty,Southwest,37,23.08,853.96
+2023-12-27,Jump Rope,Sports,Midwest,10,133.5,1335.0
+2023-12-27,Sneakers,Clothing,Southwest,38,64.83,2463.54
+2023-12-28,Polo Shirt,Clothing,West,45,18.48,831.6
+2023-12-29,Coffee Beans,Food & Beverage,Southeast,24,20.1,482.4
+2023-12-30,Jump Rope,Sports,Southeast,24,103.09,2474.16
+2023-12-30,Wall Art,Home & Garden,Midwest,19,77.25,1467.75
+2023-12-31,Sheet Masks,Beauty,Southwest,12,118.81,1425.72
+2024-01-01,Water Bottle,Sports,Northeast,48,59.15,2839.2
+2024-01-02,Smart Watch,Electronics,Midwest,49,91.74,4495.26
+2024-01-02,LED Desk Lamp,Home & Garden,West,45,30.15,1356.75
+2024-01-03,Water Bottle,Sports,West,15,64.44,966.6
+2024-01-04,LED Desk Lamp,Home & Garden,Northeast,26,90.23,2345.98
+2024-01-05,Dumbbells,Sports,Southwest,10,53.5,535.0
+2024-01-05,LED Desk Lamp,Home & Garden,Southwest,30,125.6,3768.0
+2024-01-06,Face Serum,Beauty,Midwest,45,118.47,5331.15
+2024-01-07,Denim Jeans,Clothing,Southwest,46,37.7,1734.2
+2024-01-07,Smoothie Mix,Food & Beverage,Southeast,20,121.38,2427.6
+2024-01-08,Granola,Food & Beverage,Southeast,6,96.52,579.12
+2024-01-09,LED Desk Lamp,Home & Garden,Northeast,24,110.78,2658.72
+2024-01-10,Hair Oil,Beauty,West,44,24.63,1083.72
+2024-01-10,Bluetooth Speaker,Electronics,West,21,15.0,315.0
+2024-01-11,Polo Shirt,Clothing,West,7,40.81,285.67
+2024-01-12,Lip Balm,Beauty,Southeast,16,58.83,941.28
+2024-01-13,USB-C Hub,Electronics,Southwest,6,14.48,86.88
+2024-01-13,Water Bottle,Sports,Midwest,20,94.86,1897.2
+2024-01-14,USB-C Hub,Electronics,Midwest,4,50.7,202.8
+2024-01-15,Lip Balm,Beauty,West,32,101.25,3240.0
+2024-01-15,Green Tea,Food & Beverage,Northeast,26,65.73,1708.98
+2024-01-16,Green Tea,Food & Beverage,Midwest,21,42.2,886.2
+2024-01-17,Sneakers,Clothing,Midwest,24,54.05,1297.2
+2024-01-18,USB-C Hub,Electronics,Northeast,12,55.68,668.16
+2024-01-18,Smart Watch,Electronics,Northeast,4,65.61,262.44
+2024-01-19,Face Serum,Beauty,Southwest,17,147.17,2501.89
+2024-01-20,Polo Shirt,Clothing,Northeast,43,14.81,636.83
+2024-01-21,Smart Watch,Electronics,Southeast,6,37.79,226.74
+2024-01-21,Smart Watch,Electronics,Northeast,21,25.44,534.24
+2024-01-22,Winter Jacket,Clothing,Midwest,34,129.99,4419.66
+2024-01-23,Granola,Food & Beverage,West,24,119.11,2858.64
+2024-01-24,Plant Pot Set,Home & Garden,Northeast,35,12.53,438.55
+2024-01-24,Granola,Food & Beverage,West,26,52.88,1374.88
+2024-01-25,Sheet Masks,Beauty,West,15,132.54,1988.1
+2024-01-26,Sunscreen SPF50,Beauty,West,41,86.23,3535.43
+2024-01-26,Running Shoes,Clothing,Midwest,2,14.45,28.9
+2024-01-27,Yoga Mat,Sports,West,42,77.18,3241.56
+2024-01-28,Tablet,Electronics,Midwest,43,117.46,5050.78
+2024-01-29,Wall Art,Home & Garden,West,10,18.64,186.4
+2024-01-29,Yoga Mat,Sports,Northeast,36,45.08,1622.88
+2024-01-30,Lip Balm,Beauty,West,42,69.9,2935.8
+2024-01-31,Denim Jeans,Clothing,Southeast,45,136.39,6137.55
+2024-02-01,LED Desk Lamp,Home & Garden,Southwest,28,34.29,960.12
+2024-02-01,Water Bottle,Sports,Midwest,37,68.85,2547.45
+2024-02-02,Bluetooth Speaker,Electronics,Northeast,11,78.25,860.75
+2024-02-03,Smoothie Mix,Food & Beverage,Southeast,21,110.15,2313.15
+2024-02-03,Jump Rope,Sports,Midwest,38,147.07,5588.66
+2024-02-04,Candle Set,Home & Garden,West,25,18.49,462.25
+2024-02-05,Bluetooth Speaker,Electronics,Southwest,34,35.41,1203.94
+2024-02-06,Candle Set,Home & Garden,West,28,129.44,3624.32
+2024-02-06,Lip Balm,Beauty,West,6,107.99,647.94
+2024-02-07,Tablet,Electronics,West,2,124.14,248.28
+2024-02-08,USB-C Hub,Electronics,Midwest,24,76.66,1839.84
+2024-02-09,Jump Rope,Sports,Southwest,30,30.2,906.0
+2024-02-09,Resistance Bands,Sports,West,33,39.78,1312.74
+2024-02-10,Running Shoes,Clothing,Midwest,47,32.73,1538.31
+2024-02-11,Wireless Earbuds,Electronics,Midwest,5,121.9,609.5
+2024-02-12,LED Desk Lamp,Home & Garden,Southeast,20,112.2,2244.0
+2024-02-12,Denim Jeans,Clothing,Northeast,40,5.55,222.0
+2024-02-13,Jump Rope,Sports,Midwest,1,126.37,126.37
+2024-02-14,Resistance Bands,Sports,Southwest,25,36.25,906.25
+2024-02-14,LED Desk Lamp,Home & Garden,West,46,115.09,5294.14
+2024-02-15,Yoga Mat,Sports,West,39,122.07,4760.73
+2024-02-16,Green Tea,Food & Beverage,Midwest,33,131.76,4348.08
+2024-02-17,Throw Blanket,Home & Garden,West,34,69.82,2373.88
+2024-02-17,Coffee Beans,Food & Beverage,Midwest,19,146.64,2786.16
+2024-02-18,Yoga Mat,Sports,Southeast,25,66.11,1652.75
+2024-02-19,Face Serum,Beauty,Midwest,19,146.05,2774.95
+2024-02-20,Denim Jeans,Clothing,Southwest,9,126.72,1140.48
+2024-02-20,Face Serum,Beauty,Southwest,19,131.55,2499.45
+2024-02-21,Granola,Food & Beverage,Northeast,40,43.18,1727.2
+2024-02-22,Bluetooth Speaker,Electronics,Southwest,25,124.56,3114.0
+2024-02-22,LED Desk Lamp,Home & Garden,West,14,112.76,1578.64
+2024-02-23,Wall Art,Home & Garden,Northeast,28,128.58,3600.24
+2024-02-24,Protein Bars,Food & Beverage,Northeast,16,39.73,635.68
+2024-02-25,Hair Oil,Beauty,Southeast,35,43.83,1534.05
+2024-02-25,Smoothie Mix,Food & Beverage,Southwest,5,41.58,207.9
+2024-02-26,Wall Art,Home & Garden,Northeast,33,111.95,3694.35
+2024-02-27,Protein Bars,Food & Beverage,Southeast,4,130.94,523.76
+2024-02-28,USB-C Hub,Electronics,West,23,67.41,1550.43
+2024-02-28,Hair Oil,Beauty,Northeast,46,117.21,5391.66
+2024-02-29,Plant Pot Set,Home & Garden,Southwest,29,29.73,862.17
+2024-03-01,Wall Art,Home & Garden,West,29,97.74,2834.46
+2024-03-02,Jump Rope,Sports,Midwest,22,119.08,2619.76
+2024-03-02,Hair Oil,Beauty,Midwest,2,44.38,88.76
+2024-03-03,Wireless Earbuds,Electronics,Northeast,8,96.95,775.6
+2024-03-04,Running Shoes,Clothing,Midwest,12,92.59,1111.08
+2024-03-04,Wall Art,Home & Garden,Southwest,42,145.87,6126.54
+2024-03-05,Protein Bars,Food & Beverage,Midwest,35,33.43,1170.05
+2024-03-06,Granola,Food & Beverage,Northeast,49,79.9,3915.1
+2024-03-07,Face Serum,Beauty,West,8,10.32,82.56
+2024-03-07,Smart Watch,Electronics,Northeast,39,121.37,4733.43
+2024-03-08,Lip Balm,Beauty,Northeast,43,11.44,491.92
+2024-03-09,USB-C Hub,Electronics,Southwest,49,94.47,4629.03
+2024-03-10,Throw Blanket,Home & Garden,Southwest,39,88.34,3445.26
+2024-03-10,Throw Blanket,Home & Garden,Southwest,11,24.07,264.77
+2024-03-11,Bluetooth Speaker,Electronics,Southwest,19,64.6,1227.4
+2024-03-12,Smoothie Mix,Food & Beverage,Northeast,12,102.82,1233.84
+2024-03-12,Green Tea,Food & Beverage,Southwest,39,143.33,5589.87
+2024-03-13,Tablet,Electronics,Southwest,46,12.41,570.86
+2024-03-14,Bluetooth Speaker,Electronics,West,18,42.22,759.96
+2024-03-15,Face Serum,Beauty,Midwest,36,58.51,2106.36
+2024-03-15,Jump Rope,Sports,Southeast,49,15.3,749.7
+2024-03-16,LED Desk Lamp,Home & Garden,Southwest,39,64.84,2528.76
+2024-03-17,Smart Watch,Electronics,Southwest,2,133.77,267.54
+2024-03-18,Winter Jacket,Clothing,West,9,93.82,844.38
+2024-03-18,Wall Art,Home & Garden,Southeast,6,22.48,134.88
+2024-03-19,Coffee Beans,Food & Beverage,Southeast,16,148.73,2379.68
+2024-03-20,Wireless Earbuds,Electronics,Northeast,12,47.78,573.36
+2024-03-21,Green Tea,Food & Beverage,Northeast,37,22.84,845.08
+2024-03-21,Wireless Earbuds,Electronics,Midwest,38,127.61,4849.18
+2024-03-22,Polo Shirt,Clothing,Northeast,35,16.25,568.75
+2024-03-23,Green Tea,Food & Beverage,Southeast,30,69.73,2091.9
+2024-03-23,Throw Blanket,Home & Garden,Northeast,28,88.99,2491.72
+2024-03-24,Plant Pot Set,Home & Garden,Southeast,36,61.98,2231.28
+2024-03-25,Dumbbells,Sports,Northeast,7,25.68,179.76
+2024-03-26,Bluetooth Speaker,Electronics,West,19,8.69,165.11
+2024-03-26,Polo Shirt,Clothing,Midwest,35,54.39,1903.65
+2024-03-27,Sunscreen SPF50,Beauty,Southwest,49,19.68,964.32
+2024-03-28,Polo Shirt,Clothing,West,12,86.15,1033.8
+2024-03-29,USB-C Hub,Electronics,Midwest,5,38.13,190.65
+2024-03-29,Throw Blanket,Home & Garden,Midwest,45,60.71,2731.95
+2024-03-30,Sunscreen SPF50,Beauty,Southeast,27,28.2,761.4
+2024-03-31,Sunscreen SPF50,Beauty,Southeast,15,75.74,1136.1
+2024-03-31,Green Tea,Food & Beverage,Southwest,37,143.61,5313.57
+2024-04-01,Wall Art,Home & Garden,Northeast,18,124.87,2247.66
+2024-04-02,Smoothie Mix,Food & Beverage,Northeast,47,26.98,1268.06
+2024-04-03,Granola,Food & Beverage,Northeast,5,27.35,136.75
+2024-04-03,Green Tea,Food & Beverage,Midwest,45,115.48,5196.6
+2024-04-04,Throw Blanket,Home & Garden,Southwest,42,124.89,5245.38
+2024-04-05,Plant Pot Set,Home & Garden,West,49,78.58,3850.42
+2024-04-06,Granola,Food & Beverage,Midwest,11,85.87,944.57
+2024-04-06,Bluetooth Speaker,Electronics,Southwest,24,149.96,3599.04
+2024-04-07,Denim Jeans,Clothing,Northeast,36,63.26,2277.36
+2024-04-08,Wall Art,Home & Garden,Northeast,18,95.39,1717.02
+2024-04-09,Denim Jeans,Clothing,West,37,110.97,4105.89
+2024-04-09,Protein Bars,Food & Beverage,Midwest,37,83.74,3098.38
+2024-04-10,Candle Set,Home & Garden,Southwest,34,109.71,3730.14
+2024-04-11,Dumbbells,Sports,Southwest,11,84.65,931.15
+2024-04-11,Bluetooth Speaker,Electronics,West,41,132.18,5419.38
+2024-04-12,Face Serum,Beauty,West,19,79.37,1508.03
+2024-04-13,Jump Rope,Sports,Southeast,32,76.33,2442.56
+2024-04-14,Water Bottle,Sports,Midwest,33,86.59,2857.47
+2024-04-14,LED Desk Lamp,Home & Garden,Midwest,17,130.51,2218.67
+2024-04-15,Polo Shirt,Clothing,West,47,115.86,5445.42
+2024-04-16,Coffee Beans,Food & Beverage,West,48,149.44,7173.12
+2024-04-17,Protein Bars,Food & Beverage,Midwest,17,127.81,2172.77
+2024-04-17,Sunscreen SPF50,Beauty,Southwest,5,79.01,395.05
+2024-04-18,Sneakers,Clothing,Southeast,22,109.79,2415.38
+2024-04-19,Sneakers,Clothing,Northeast,16,123.87,1981.92
+2024-04-19,LED Desk Lamp,Home & Garden,Midwest,30,6.29,188.7
+2024-04-20,Winter Jacket,Clothing,Midwest,49,18.02,882.98
+2024-04-21,Bluetooth Speaker,Electronics,Southwest,25,96.77,2419.25
+2024-04-22,Smoothie Mix,Food & Beverage,West,9,116.09,1044.81
+2024-04-22,Plant Pot Set,Home & Garden,Southeast,40,62.87,2514.8
+2024-04-23,Hair Oil,Beauty,Midwest,30,8.55,256.5
+2024-04-24,Throw Blanket,Home & Garden,Southwest,14,122.19,1710.66
+2024-04-25,Sneakers,Clothing,Southeast,19,80.77,1534.63
+2024-04-25,Smart Watch,Electronics,West,42,40.12,1685.04
+2024-04-26,Winter Jacket,Clothing,West,26,63.42,1648.92
+2024-04-27,Denim Jeans,Clothing,Midwest,8,47.41,379.28
+2024-04-28,Sheet Masks,Beauty,Northeast,39,74.08,2889.12
+2024-04-28,Wireless Earbuds,Electronics,Southwest,30,146.95,4408.5
+2024-04-29,Candle Set,Home & Garden,Northeast,19,98.93,1879.67
+2024-04-30,Lip Balm,Beauty,West,10,124.11,1241.1
+2024-04-30,Resistance Bands,Sports,West,14,72.16,1010.24
+2024-05-01,Granola,Food & Beverage,Southeast,13,137.93,1793.09
+2024-05-02,Resistance Bands,Sports,Midwest,18,124.45,2240.1
+2024-05-03,Bluetooth Speaker,Electronics,Northeast,49,51.05,2501.45
+2024-05-03,Sneakers,Clothing,Northeast,26,108.68,2825.68
+2024-05-04,Running Shoes,Clothing,Northeast,6,40.79,244.74
+2024-05-05,Granola,Food & Beverage,Midwest,11,124.87,1373.57
+2024-05-06,LED Desk Lamp,Home & Garden,West,27,130.65,3527.55
+2024-05-06,Resistance Bands,Sports,Midwest,15,141.73,2125.95
+2024-05-07,Bluetooth Speaker,Electronics,Southeast,37,21.82,807.34
+2024-05-08,Protein Bars,Food & Beverage,Southeast,27,127.42,3440.34
+2024-05-08,Smoothie Mix,Food & Beverage,Northeast,43,101.63,4370.09
+2024-05-09,Water Bottle,Sports,Northeast,17,103.04,1751.68
+2024-05-10,Face Serum,Beauty,Midwest,21,73.93,1552.53
+2024-05-11,Dumbbells,Sports,West,42,20.2,848.4
+2024-05-11,Tablet,Electronics,Midwest,47,21.09,991.23
+2024-05-12,Yoga Mat,Sports,Southeast,7,116.3,814.1
+2024-05-13,Smoothie Mix,Food & Beverage,Northeast,36,128.3,4618.8
+2024-05-14,Tablet,Electronics,Southwest,22,36.28,798.16
+2024-05-14,Smoothie Mix,Food & Beverage,West,34,62.24,2116.16
+2024-05-15,Denim Jeans,Clothing,West,28,146.32,4096.96
+2024-05-16,Granola,Food & Beverage,Northeast,40,72.88,2915.2
+2024-05-17,Dumbbells,Sports,Northeast,43,58.33,2508.19
+2024-05-17,Smart Watch,Electronics,Southeast,44,19.48,857.12
+2024-05-18,Sheet Masks,Beauty,Southeast,37,137.1,5072.7
+2024-05-19,Face Serum,Beauty,Midwest,36,142.58,5132.88
+2024-05-19,Tablet,Electronics,West,47,52.89,2485.83
+2024-05-20,Hair Oil,Beauty,Northeast,24,110.1,2642.4
+2024-05-21,Resistance Bands,Sports,West,26,103.24,2684.24
+2024-05-22,Yoga Mat,Sports,West,40,24.07,962.8
+2024-05-22,Candle Set,Home & Garden,Northeast,42,116.67,4900.14
+2024-05-23,Sneakers,Clothing,Southwest,6,68.15,408.9
+2024-05-24,Wireless Earbuds,Electronics,West,7,55.47,388.29
+2024-05-25,Candle Set,Home & Garden,West,36,84.52,3042.72
+2024-05-25,LED Desk Lamp,Home & Garden,Northeast,32,135.29,4329.28
+2024-05-26,USB-C Hub,Electronics,Midwest,22,27.09,595.98
+2024-05-27,Protein Bars,Food & Beverage,West,29,40.76,1182.04
+2024-05-27,Granola,Food & Beverage,West,23,102.39,2354.97
+2024-05-28,Running Shoes,Clothing,West,5,81.96,409.8
+2024-05-29,Denim Jeans,Clothing,Northeast,15,86.39,1295.85
+2024-05-30,Tablet,Electronics,Southeast,26,33.4,868.4
+2024-05-30,Smart Watch,Electronics,Southwest,25,118.29,2957.25
+2024-05-31,Throw Blanket,Home & Garden,West,13,122.61,1593.93
+2024-06-01,Water Bottle,Sports,West,43,122.43,5264.49
+2024-06-02,Hair Oil,Beauty,Southeast,47,13.79,648.13
+2024-06-02,Running Shoes,Clothing,Northeast,5,77.11,385.55
+2024-06-03,LED Desk Lamp,Home & Garden,Southwest,38,81.8,3108.4
+2024-06-04,Sneakers,Clothing,Southeast,46,16.05,738.3
+2024-06-05,Lip Balm,Beauty,Midwest,46,67.76,3116.96
+2024-06-05,Sheet Masks,Beauty,Midwest,8,35.33,282.64
+2024-06-06,Yoga Mat,Sports,Southwest,17,147.27,2503.59
+2024-06-07,Denim Jeans,Clothing,Northeast,31,40.09,1242.79
+2024-06-07,Water Bottle,Sports,Midwest,48,63.97,3070.56
+2024-06-08,Running Shoes,Clothing,Northeast,12,42.63,511.56
+2024-06-09,Denim Jeans,Clothing,Southeast,23,15.6,358.8
+2024-06-10,Polo Shirt,Clothing,Midwest,44,119.93,5276.92
+2024-06-10,Green Tea,Food & Beverage,Southwest,17,144.22,2451.74
+2024-06-11,Winter Jacket,Clothing,West,8,28.44,227.52
+2024-06-12,Face Serum,Beauty,Midwest,43,101.66,4371.38
+2024-06-13,Resistance Bands,Sports,West,22,129.01,2838.22
+2024-06-13,USB-C Hub,Electronics,West,10,118.74,1187.4
+2024-06-14,Resistance Bands,Sports,Southeast,43,11.68,502.24
+2024-06-15,Resistance Bands,Sports,Southwest,8,122.2,977.6
+2024-06-15,LED Desk Lamp,Home & Garden,Southwest,29,74.73,2167.17
+2024-06-16,Green Tea,Food & Beverage,Midwest,36,46.89,1688.04
+2024-06-17,Denim Jeans,Clothing,Southwest,1,11.51,11.51
+2024-06-18,Tablet,Electronics,Midwest,20,18.15,363.0
+2024-06-18,LED Desk Lamp,Home & Garden,Northeast,39,88.68,3458.52
+2024-06-19,Sneakers,Clothing,Midwest,29,86.79,2516.91
+2024-06-20,Polo Shirt,Clothing,Southeast,1,39.86,39.86
+2024-06-21,Sneakers,Clothing,Southeast,20,19.76,395.2
+2024-06-21,Throw Blanket,Home & Garden,Southeast,41,10.64,436.24
+2024-06-22,Wireless Earbuds,Electronics,Southwest,22,130.68,2874.96
+2024-06-23,USB-C Hub,Electronics,Midwest,4,89.34,357.36
+2024-06-24,Candle Set,Home & Garden,Midwest,35,52.32,1831.2
+2024-06-24,Candle Set,Home & Garden,Southeast,7,134.64,942.48
+2024-06-25,Smoothie Mix,Food & Beverage,Southeast,14,118.15,1654.1
+2024-06-26,Resistance Bands,Sports,Northeast,45,90.71,4081.95
+2024-06-26,Wall Art,Home & Garden,West,46,15.32,704.72
+2024-06-27,Denim Jeans,Clothing,Midwest,37,71.7,2652.9
+2024-06-28,Granola,Food & Beverage,Southeast,34,117.22,3985.48
+2024-06-29,Water Bottle,Sports,Southwest,34,132.0,4488.0
+2024-06-29,Dumbbells,Sports,Southwest,5,61.81,309.05
+2024-06-30,Face Serum,Beauty,Southeast,6,12.92,77.52
+2024-07-01,Sheet Masks,Beauty,Midwest,20,38.41,768.2
+2024-07-02,Hair Oil,Beauty,Midwest,28,49.96,1398.88
+2024-07-02,Yoga Mat,Sports,Southeast,5,115.06,575.3
+2024-07-03,Sneakers,Clothing,Midwest,25,41.66,1041.5
+2024-07-04,Face Serum,Beauty,West,48,135.78,6517.44
+2024-07-04,Sheet Masks,Beauty,Midwest,21,26.69,560.49
+2024-07-05,Winter Jacket,Clothing,Northeast,32,29.26,936.32
+2024-07-06,Tablet,Electronics,Northeast,32,11.15,356.8
+2024-07-07,Bluetooth Speaker,Electronics,Northeast,48,48.0,2304.0
+2024-07-07,Candle Set,Home & Garden,Northeast,37,19.86,734.82
+2024-07-08,Tablet,Electronics,Southeast,36,146.0,5256.0
+2024-07-09,LED Desk Lamp,Home & Garden,Southwest,47,105.72,4968.84
+2024-07-10,Face Serum,Beauty,Northeast,17,9.47,160.99
+2024-07-10,Protein Bars,Food & Beverage,West,13,35.94,467.22
+2024-07-11,Dumbbells,Sports,Northeast,3,22.24,66.72
+2024-07-12,Dumbbells,Sports,Southeast,1,50.24,50.24
+2024-07-13,Jump Rope,Sports,Midwest,18,7.33,131.94
+2024-07-13,Water Bottle,Sports,Northeast,40,120.64,4825.6
+2024-07-14,Lip Balm,Beauty,Southwest,4,86.05,344.2
+2024-07-15,LED Desk Lamp,Home & Garden,Midwest,33,145.22,4792.26
+2024-07-15,Protein Bars,Food & Beverage,Southwest,5,109.18,545.9
+2024-07-16,Sunscreen SPF50,Beauty,Midwest,19,62.5,1187.5
+2024-07-17,Plant Pot Set,Home & Garden,West,25,27.8,695.0
+2024-07-18,Resistance Bands,Sports,Southwest,22,102.54,2255.88
+2024-07-18,Sunscreen SPF50,Beauty,Midwest,16,147.38,2358.08
+2024-07-19,Polo Shirt,Clothing,Northeast,16,28.61,457.76
+2024-07-20,Bluetooth Speaker,Electronics,West,11,32.76,360.36
+2024-07-21,Wireless Earbuds,Electronics,Southwest,5,111.24,556.2
+2024-07-21,Sunscreen SPF50,Beauty,Northeast,33,46.43,1532.19
+2024-07-22,Candle Set,Home & Garden,West,2,34.78,69.56
+2024-07-23,USB-C Hub,Electronics,Midwest,20,102.36,2047.2
+2024-07-23,Sheet Masks,Beauty,Southeast,20,45.29,905.8
+2024-07-24,Running Shoes,Clothing,Southwest,8,14.79,118.32
+2024-07-25,Running Shoes,Clothing,Southwest,2,145.75,291.5
+2024-07-26,Yoga Mat,Sports,West,5,32.52,162.6
+2024-07-26,Wireless Earbuds,Electronics,Midwest,27,80.36,2169.72
+2024-07-27,Plant Pot Set,Home & Garden,Southeast,34,75.04,2551.36
+2024-07-28,Resistance Bands,Sports,Midwest,38,145.44,5526.72
+2024-07-29,Candle Set,Home & Garden,Midwest,47,142.96,6719.12
+2024-07-29,Bluetooth Speaker,Electronics,Midwest,44,71.41,3142.04
+2024-07-30,Sneakers,Clothing,Midwest,34,107.05,3639.7
+2024-07-31,Running Shoes,Clothing,Northeast,33,102.45,3380.85
+2024-08-01,Wall Art,Home & Garden,Northeast,2,130.58,261.16
+2024-08-01,Plant Pot Set,Home & Garden,Midwest,25,27.45,686.25
+2024-08-02,Sunscreen SPF50,Beauty,West,48,5.97,286.56
+2024-08-03,Running Shoes,Clothing,Northeast,45,64.18,2888.1
+2024-08-03,Granola,Food & Beverage,West,7,41.7,291.9
+2024-08-04,LED Desk Lamp,Home & Garden,Southwest,10,62.86,628.6
+2024-08-05,Lip Balm,Beauty,Northeast,32,102.51,3280.32
+2024-08-06,Winter Jacket,Clothing,Midwest,27,67.87,1832.49
+2024-08-06,Water Bottle,Sports,West,21,137.61,2889.81
+2024-08-07,Dumbbells,Sports,Midwest,9,68.57,617.13
+2024-08-08,Yoga Mat,Sports,Southeast,43,97.46,4190.78
+2024-08-09,Polo Shirt,Clothing,Northeast,45,18.25,821.25
+2024-08-09,Granola,Food & Beverage,Northeast,47,9.28,436.16
+2024-08-10,USB-C Hub,Electronics,Midwest,43,40.9,1758.7
+2024-08-11,Green Tea,Food & Beverage,Northeast,3,36.22,108.66
+2024-08-11,Plant Pot Set,Home & Garden,Southeast,30,142.97,4289.1
+2024-08-12,Denim Jeans,Clothing,Southwest,36,140.24,5048.64
+2024-08-13,Sunscreen SPF50,Beauty,Midwest,10,79.47,794.7
+2024-08-14,Sunscreen SPF50,Beauty,Northeast,46,58.81,2705.26
+2024-08-14,Coffee Beans,Food & Beverage,West,25,53.37,1334.25
+2024-08-15,Yoga Mat,Sports,Midwest,37,101.64,3760.68
+2024-08-16,Green Tea,Food & Beverage,Southeast,43,97.5,4192.5
+2024-08-17,Resistance Bands,Sports,West,43,140.76,6052.68
+2024-08-17,Winter Jacket,Clothing,Southeast,22,118.84,2614.48
+2024-08-18,USB-C Hub,Electronics,Southwest,4,90.58,362.32
+2024-08-19,Wall Art,Home & Garden,Midwest,28,20.28,567.84
+2024-08-20,Lip Balm,Beauty,Southwest,1,138.98,138.98
+2024-08-20,Smoothie Mix,Food & Beverage,Southwest,49,31.92,1564.08
+2024-08-21,Denim Jeans,Clothing,Midwest,45,124.84,5617.8
+2024-08-22,Wall Art,Home & Garden,West,5,6.15,30.75
+2024-08-22,Water Bottle,Sports,Southwest,42,82.66,3471.72
+2024-08-23,Green Tea,Food & Beverage,Southwest,24,119.45,2866.8
+2024-08-24,Resistance Bands,Sports,Northeast,49,78.32,3837.68
+2024-08-25,USB-C Hub,Electronics,Southwest,9,16.26,146.34
+2024-08-25,LED Desk Lamp,Home & Garden,Northeast,5,103.16,515.8
+2024-08-26,Water Bottle,Sports,Northeast,30,68.69,2060.7
+2024-08-27,Smoothie Mix,Food & Beverage,West,23,30.99,712.77
+2024-08-28,Protein Bars,Food & Beverage,Southwest,40,130.13,5205.2
+2024-08-28,Hair Oil,Beauty,Northeast,18,48.03,864.54
+2024-08-29,Face Serum,Beauty,Midwest,43,111.2,4781.6
+2024-08-30,Lip Balm,Beauty,Midwest,10,97.02,970.2
+2024-08-30,Resistance Bands,Sports,Midwest,9,35.72,321.48
+2024-08-31,Sunscreen SPF50,Beauty,Midwest,15,113.66,1704.9
+2024-09-01,Protein Bars,Food & Beverage,Northeast,47,114.31,5372.57
+2024-09-02,Throw Blanket,Home & Garden,Southeast,10,64.72,647.2
+2024-09-02,USB-C Hub,Electronics,Northeast,34,64.73,2200.82
+2024-09-03,Sneakers,Clothing,Northeast,48,142.04,6817.92
+2024-09-04,Smoothie Mix,Food & Beverage,Southeast,29,68.67,1991.43
+2024-09-05,USB-C Hub,Electronics,Midwest,5,115.9,579.5
+2024-09-05,Running Shoes,Clothing,Northeast,39,65.79,2565.81
+2024-09-06,Face Serum,Beauty,Southwest,43,15.01,645.43
+2024-09-07,Candle Set,Home & Garden,West,43,104.85,4508.55
+2024-09-08,Bluetooth Speaker,Electronics,Northeast,9,82.67,744.03
+2024-09-08,Protein Bars,Food & Beverage,Midwest,22,127.28,2800.16
+2024-09-09,Water Bottle,Sports,Southwest,41,82.08,3365.28
+2024-09-10,Throw Blanket,Home & Garden,Midwest,2,63.66,127.32
+2024-09-10,Candle Set,Home & Garden,Southeast,46,61.23,2816.58
+2024-09-11,Plant Pot Set,Home & Garden,West,32,11.09,354.88
+2024-09-12,Bluetooth Speaker,Electronics,Northeast,15,14.65,219.75
+2024-09-13,USB-C Hub,Electronics,Southwest,18,59.44,1069.92
+2024-09-13,Hair Oil,Beauty,Southwest,29,86.06,2495.74
+2024-09-14,Throw Blanket,Home & Garden,Midwest,3,55.83,167.49
+2024-09-15,Hair Oil,Beauty,Midwest,11,100.23,1102.53
+2024-09-16,Throw Blanket,Home & Garden,Northeast,2,100.94,201.88
+2024-09-16,Bluetooth Speaker,Electronics,Southwest,31,121.65,3771.15
+2024-09-17,Bluetooth Speaker,Electronics,Southeast,8,66.78,534.24
+2024-09-18,Smoothie Mix,Food & Beverage,West,39,103.23,4025.97
+2024-09-18,Tablet,Electronics,West,37,35.05,1296.85
+2024-09-19,Coffee Beans,Food & Beverage,West,7,101.06,707.42
+2024-09-20,Sheet Masks,Beauty,Midwest,17,42.44,721.48
+2024-09-21,Green Tea,Food & Beverage,Southwest,36,128.62,4630.32
+2024-09-21,Lip Balm,Beauty,Southwest,12,73.72,884.64
+2024-09-22,Throw Blanket,Home & Garden,Southeast,40,91.97,3678.8
+2024-09-23,Hair Oil,Beauty,Northeast,10,78.52,785.2
+2024-09-24,Winter Jacket,Clothing,Southeast,12,69.36,832.32
+2024-09-24,Face Serum,Beauty,Midwest,38,82.32,3128.16
+2024-09-25,Sunscreen SPF50,Beauty,Southwest,30,37.63,1128.9
+2024-09-26,Dumbbells,Sports,West,46,36.71,1688.66
+2024-09-27,Lip Balm,Beauty,West,39,117.63,4587.57
+2024-09-27,Hair Oil,Beauty,Northeast,37,113.44,4197.28
+2024-09-28,Yoga Mat,Sports,Southwest,37,42.64,1577.68
+2024-09-29,Coffee Beans,Food & Beverage,Southeast,15,85.81,1287.15
+2024-09-29,Face Serum,Beauty,Southwest,46,133.78,6153.88
+2024-09-30,Green Tea,Food & Beverage,Northeast,2,113.46,226.92
+2024-10-01,Sheet Masks,Beauty,West,38,18.76,712.88
+2024-10-02,Water Bottle,Sports,Southwest,31,121.2,3757.2
+2024-10-02,Denim Jeans,Clothing,Southwest,45,72.54,3264.3
+2024-10-03,Protein Bars,Food & Beverage,Midwest,35,8.25,288.75
+2024-10-04,Coffee Beans,Food & Beverage,West,11,6.99,76.89
+2024-10-05,Coffee Beans,Food & Beverage,Southeast,22,7.09,155.98
+2024-10-05,Bluetooth Speaker,Electronics,Midwest,32,24.23,775.36
+2024-10-06,Denim Jeans,Clothing,Southwest,3,95.57,286.71
+2024-10-07,Green Tea,Food & Beverage,Southwest,19,89.24,1695.56
+2024-10-07,Coffee Beans,Food & Beverage,Southwest,43,103.04,4430.72
+2024-10-08,LED Desk Lamp,Home & Garden,Midwest,20,87.58,1751.6
+2024-10-09,Lip Balm,Beauty,Midwest,28,81.51,2282.28
+2024-10-10,Coffee Beans,Food & Beverage,West,21,147.26,3092.46
+2024-10-10,Face Serum,Beauty,Northeast,42,108.69,4564.98
+2024-10-11,Sunscreen SPF50,Beauty,Southeast,32,70.94,2270.08
+2024-10-12,Plant Pot Set,Home & Garden,West,23,139.13,3199.99
+2024-10-13,Protein Bars,Food & Beverage,Southeast,25,99.05,2476.25
+2024-10-13,Sunscreen SPF50,Beauty,West,1,97.21,97.21
+2024-10-14,Bluetooth Speaker,Electronics,Northeast,22,71.0,1562.0
+2024-10-15,Green Tea,Food & Beverage,Northeast,20,104.38,2087.6
+2024-10-16,Throw Blanket,Home & Garden,West,15,126.53,1897.95
+2024-10-16,Sunscreen SPF50,Beauty,Southwest,28,75.83,2123.24
+2024-10-17,Green Tea,Food & Beverage,Southeast,37,125.9,4658.3
+2024-10-18,Resistance Bands,Sports,Midwest,11,90.96,1000.56
+2024-10-18,Hair Oil,Beauty,Southeast,8,14.65,117.2
+2024-10-19,Face Serum,Beauty,Midwest,20,132.74,2654.8
+2024-10-20,Coffee Beans,Food & Beverage,Midwest,47,104.1,4892.7
+2024-10-21,Protein Bars,Food & Beverage,Southwest,35,34.08,1192.8
+2024-10-21,Running Shoes,Clothing,Northeast,47,92.44,4344.68
+2024-10-22,Granola,Food & Beverage,West,39,68.13,2657.07
+2024-10-23,Wireless Earbuds,Electronics,Midwest,42,141.0,5922.0
+2024-10-24,Sunscreen SPF50,Beauty,West,34,15.3,520.2
+2024-10-24,Winter Jacket,Clothing,Southeast,20,13.01,260.2
+2024-10-25,Dumbbells,Sports,Northeast,20,146.1,2922.0
+2024-10-26,Water Bottle,Sports,Southwest,46,96.43,4435.78
+2024-10-26,Hair Oil,Beauty,Northeast,10,42.19,421.9
+2024-10-27,Dumbbells,Sports,Southwest,13,14.07,182.91
+2024-10-28,Polo Shirt,Clothing,Southeast,31,117.64,3646.84
+2024-10-29,Wall Art,Home & Garden,Southwest,46,121.55,5591.3
+2024-10-29,Lip Balm,Beauty,Midwest,40,49.03,1961.2
+2024-10-30,Jump Rope,Sports,Southeast,23,16.93,389.39
+2024-10-31,Smart Watch,Electronics,Southwest,34,71.47,2429.98
+2024-11-01,Smart Watch,Electronics,Southeast,12,117.67,1412.04
+2024-11-01,Protein Bars,Food & Beverage,West,32,133.98,4287.36
+2024-11-02,Denim Jeans,Clothing,Northeast,21,75.96,1595.16
+2024-11-03,Jump Rope,Sports,Northeast,38,126.54,4808.52
+2024-11-04,Plant Pot Set,Home & Garden,West,16,52.59,841.44
+2024-11-04,LED Desk Lamp,Home & Garden,Southwest,32,23.27,744.64
+2024-11-05,Protein Bars,Food & Beverage,Midwest,49,30.45,1492.05
+2024-11-06,Protein Bars,Food & Beverage,West,26,131.09,3408.34
+2024-11-06,Yoga Mat,Sports,West,13,100.94,1312.22
+2024-11-07,Coffee Beans,Food & Beverage,Southeast,28,76.16,2132.48
+2024-11-08,Sheet Masks,Beauty,Northeast,38,145.64,5534.32
+2024-11-09,Sunscreen SPF50,Beauty,Midwest,10,58.27,582.7
+2024-11-09,Yoga Mat,Sports,Southwest,31,88.12,2731.72
+2024-11-10,Hair Oil,Beauty,Southwest,25,8.66,216.5
+2024-11-11,Polo Shirt,Clothing,West,39,90.4,3525.6
+2024-11-12,Smoothie Mix,Food & Beverage,West,42,119.93,5037.06
+2024-11-12,Dumbbells,Sports,Northeast,17,27.05,459.85
+2024-11-13,USB-C Hub,Electronics,Southeast,17,47.62,809.54
+2024-11-14,Candle Set,Home & Garden,Midwest,23,47.26,1086.98
+2024-11-14,Denim Jeans,Clothing,Northeast,13,72.87,947.31
+2024-11-15,Yoga Mat,Sports,Southeast,16,94.21,1507.36
+2024-11-16,USB-C Hub,Electronics,Southeast,32,59.49,1903.68
+2024-11-17,Coffee Beans,Food & Beverage,Northeast,21,115.62,2428.02
+2024-11-17,Wall Art,Home & Garden,Southeast,15,137.04,2055.6
+2024-11-18,Dumbbells,Sports,Northeast,23,95.82,2203.86
+2024-11-19,Bluetooth Speaker,Electronics,Northeast,9,126.68,1140.12
+2024-11-20,Water Bottle,Sports,Northeast,11,70.11,771.21
+2024-11-20,Yoga Mat,Sports,Northeast,45,21.18,953.1
+2024-11-21,Wall Art,Home & Garden,Southeast,1,93.56,93.56
+2024-11-22,Sunscreen SPF50,Beauty,Northeast,11,87.43,961.73
+2024-11-23,Smart Watch,Electronics,Southeast,29,129.19,3746.51
+2024-11-23,Sheet Masks,Beauty,Northeast,45,124.89,5620.05
+2024-11-24,Tablet,Electronics,Southwest,11,47.41,521.51
+2024-11-25,Plant Pot Set,Home & Garden,West,40,140.31,5612.4
+2024-11-25,LED Desk Lamp,Home & Garden,West,6,103.38,620.28
+2024-11-26,Sneakers,Clothing,Northeast,4,55.81,223.24
+2024-11-27,Wall Art,Home & Garden,Northeast,13,6.49,84.37
+2024-11-28,Bluetooth Speaker,Electronics,West,46,120.2,5529.2
+2024-11-28,Throw Blanket,Home & Garden,Southeast,28,42.85,1199.8
+2024-11-29,Bluetooth Speaker,Electronics,Southeast,8,141.15,1129.2
+2024-11-30,Jump Rope,Sports,West,27,18.39,496.53
+2024-12-01,Sheet Masks,Beauty,Midwest,25,137.42,3435.5
+2024-12-01,Winter Jacket,Clothing,Southeast,9,113.92,1025.28
+2024-12-02,Throw Blanket,Home & Garden,Southeast,24,123.52,2964.48
+2024-12-03,LED Desk Lamp,Home & Garden,Northeast,15,72.05,1080.75
+2024-12-03,Granola,Food & Beverage,Southeast,26,108.98,2833.48
+2024-12-04,Jump Rope,Sports,Northeast,23,47.79,1099.17
+2024-12-05,Face Serum,Beauty,Southeast,2,31.77,63.54
+2024-12-06,Protein Bars,Food & Beverage,Southwest,20,125.49,2509.8
+2024-12-06,Sheet Masks,Beauty,Southwest,33,21.95,724.35
+2024-12-07,Winter Jacket,Clothing,Northeast,46,91.43,4205.78
+2024-12-08,Protein Bars,Food & Beverage,Midwest,5,56.49,282.45
+2024-12-09,Jump Rope,Sports,West,27,140.08,3782.16
+2024-12-09,Throw Blanket,Home & Garden,Northeast,40,62.93,2517.2
+2024-12-10,Yoga Mat,Sports,Southwest,8,124.85,998.8
+2024-12-11,Green Tea,Food & Beverage,Southwest,45,15.97,718.65
+2024-12-12,Candle Set,Home & Garden,Northeast,38,36.13,1372.94
+2024-12-12,Plant Pot Set,Home & Garden,Midwest,1,106.46,106.46
+2024-12-13,Sunscreen SPF50,Beauty,Southeast,28,37.34,1045.52
+2024-12-14,Coffee Beans,Food & Beverage,Southwest,8,47.97,383.76
+2024-12-14,Granola,Food & Beverage,Southeast,30,42.65,1279.5
+2024-12-15,Green Tea,Food & Beverage,West,31,12.65,392.15
+2024-12-16,USB-C Hub,Electronics,Northeast,47,88.29,4149.63
+2024-12-17,Winter Jacket,Clothing,Midwest,21,113.05,2374.05
+2024-12-17,Protein Bars,Food & Beverage,Southwest,17,85.81,1458.77
+2024-12-18,Wireless Earbuds,Electronics,Midwest,48,74.91,3595.68
+2024-12-19,Sheet Masks,Beauty,Midwest,15,124.43,1866.45
+2024-12-20,Protein Bars,Food & Beverage,Midwest,31,48.98,1518.38
+2024-12-20,Dumbbells,Sports,Northeast,22,16.1,354.2
+2024-12-21,Winter Jacket,Clothing,West,47,73.96,3476.12
+2024-12-22,Sunscreen SPF50,Beauty,Northeast,18,53.16,956.88
+2024-12-22,Sheet Masks,Beauty,Midwest,7,65.56,458.92
+2024-12-23,Wall Art,Home & Garden,Midwest,35,16.14,564.9
+2024-12-24,Jump Rope,Sports,West,35,63.47,2221.45
+2024-12-25,Smoothie Mix,Food & Beverage,Southeast,17,135.39,2301.63
+2024-12-25,Tablet,Electronics,Southeast,32,113.75,3640.0
+2024-12-26,Sheet Masks,Beauty,West,48,36.46,1750.08
+2024-12-27,Wall Art,Home & Garden,Southwest,16,11.08,177.28
+2024-12-28,Polo Shirt,Clothing,Midwest,32,132.5,4240.0
+2024-12-28,Sunscreen SPF50,Beauty,Southwest,31,143.93,4461.83
+2024-12-29,Polo Shirt,Clothing,Northeast,39,97.14,3788.46
+2024-12-30,Plant Pot Set,Home & Garden,Southwest,38,82.04,3117.52
+2024-12-31,Smoothie Mix,Food & Beverage,Midwest,39,111.07,4331.73
