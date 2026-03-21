@@ -1,8 +1,10 @@
-# AI Business Analyst Agent 🤖📊
+# ◈ Vantage — AI Business Analyst Agent
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://heer1910-vantage.streamlit.app)
 
 A conversational AI tool that lets any business user upload data and get chart-backed insights and ROI-framed recommendations in plain English — built with Claude API and Streamlit.
 
-**[▶ Live Demo](https://heer-analyst-agent.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
+**[▶ Launch Vantage](https://heer1910-vantage.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
 
 ---
 
@@ -49,8 +51,8 @@ charts.py + cards.py →  Renders Plotly chart + Insight & Recommendation cards
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/Heer1910/ai-analyst-agent.git
-cd ai-analyst-agent
+git clone https://github.com/Heer1910/Vantage.git
+cd Vantage
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -75,7 +77,7 @@ The app opens at `http://localhost:8501`. Select a demo dataset or upload your o
 ## File Structure
 
 ```
-ai-analyst-agent/
+Vantage/
 ├── app.py                      # Main Streamlit entry point
 ├── components/
 │   ├── uploader.py             # CSV upload + schema detection
@@ -113,7 +115,7 @@ ai-analyst-agent/
 1. Push to public GitHub repo under `Heer1910`
 2. Connect at [share.streamlit.io](https://share.streamlit.io) → select `app.py`
 3. Add `ANTHROPIC_API_KEY` under Settings → Secrets
-4. App goes live at `heer-analyst-agent.streamlit.app`
+4. App goes live at [`heer1910-vantage.streamlit.app`](https://heer1910-vantage.streamlit.app)
 
 ---
 
