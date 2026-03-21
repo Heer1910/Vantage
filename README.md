@@ -1,10 +1,10 @@
 # ◈ Vantage — AI Business Analyst Agent
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://heer1910-vantage.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vantage-1910.streamlit.app)
 
 A conversational AI tool that lets any business user upload data and get chart-backed insights and ROI-framed recommendations in plain English — built with Claude API and Streamlit.
 
-**[▶ Launch Vantage](https://heer1910-vantage.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
+**[▶ Launch Vantage](https://vantage-1910.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
 
 ---
 
@@ -115,7 +115,7 @@ Vantage/
 1. Push to public GitHub repo under `Heer1910`
 2. Connect at [share.streamlit.io](https://share.streamlit.io) → select `app.py`
 3. Add `ANTHROPIC_API_KEY` under Settings → Secrets
-4. App goes live at [`heer1910-vantage.streamlit.app`](https://heer1910-vantage.streamlit.app)
+4. App goes live at [`heer1910-vantage.streamlit.app`](https://vantage-1910.streamlit.app)
 
 ---
 
