@@ -56,8 +56,6 @@ st.markdown(
     section[data-testid="stSidebar"] {
         background: linear-gradient(180deg, #f0eef5 0%, #ede8f5 100%) !important;
         border-right: 1px solid #e0daea;
-    }
-    section[data-testid="stSidebar"] * {
         color: #4a4556 !important;
     }
     section[data-testid="stSidebar"] h1,
@@ -267,10 +265,9 @@ def _render_welcome():
                 background: linear-gradient(135deg, #7b5ea7, #e8889e);
                 display: inline-flex; align-items: center; justify-content: center;
                 font-size: 1.5rem;
-                color: white;
                 margin-bottom: 20px;
                 box-shadow: 0 6px 20px rgba(123, 94, 167, 0.25);
-            ">◈</div>
+            "><span style="color: #ffffff;">◈</span></div>
             <h1 style="
                 font-family: 'DM Serif Display', Georgia, serif;
                 color: #2d2d2d;
@@ -443,10 +440,9 @@ else:
                 background: linear-gradient(135deg, #7b5ea7, #e8889e);
                 display: flex; align-items: center; justify-content: center;
                 font-size: 1.1rem;
-                color: white;
                 font-weight: 600;
                 box-shadow: 0 3px 10px rgba(123, 94, 167, 0.2);
-            ">◈</div>
+            "><span style="color: #ffffff;">◈</span></div>
             <div>
                 <h2 style="
                     font-family: 'DM Sans', sans-serif;

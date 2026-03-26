@@ -49,19 +49,17 @@ def render_sidebar() -> None:
     data preview, and schema summary.
     """
     with st.sidebar:
+        # ── Branding icon (rendered as image to avoid CSS color override)
+        _icon_col1, _icon_col2, _icon_col3 = st.columns([1, 1, 1])
+        with _icon_col2:
+            _icon_path = os.path.join(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                "data", "icon_white.svg",
+            )
+            st.image(_icon_path, width=42)
         st.markdown(
             """
-            <div style="text-align: center; padding: 0.5rem 0 1rem;">
-                <div style="
-                    width: 42px; height: 42px;
-                    border-radius: 12px;
-                    background: linear-gradient(135deg, #7b5ea7, #e8889e);
-                    display: inline-flex; align-items: center; justify-content: center;
-                    font-size: 1.1rem;
-                    color: white;
-                    margin-bottom: 8px;
-                    box-shadow: 0 3px 10px rgba(123, 94, 167, 0.2);
-                ">◈</div>
+            <div style="text-align: center; margin-top: -8px; padding-bottom: 0.5rem;">
                 <h2 style="
                     margin: 0;
                     font-family: 'DM Serif Display', Georgia, serif;

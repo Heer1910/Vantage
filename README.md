@@ -92,7 +92,8 @@ Vantage/
 │   └── theme.py                # Brand colors + Plotly template
 ├── data/
 │   ├── retail_sample.csv       # Demo: 1,000 rows of retail sales
-│   └── churn_sample.csv        # Demo: 500 rows of telecom churn
+│   ├── churn_sample.csv        # Demo: 500 rows of telecom churn
+│   └── icon_white.svg          # Vantage brand icon (white ◈ on gradient)
 ├── .streamlit/config.toml      # Streamlit theme config
 ├── .env.example                # API key template
 ├── requirements.txt            # Pinned dependencies
