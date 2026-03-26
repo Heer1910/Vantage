@@ -52,16 +52,17 @@ def render_sidebar() -> None:
         # ── Branding (icon as base64 img to avoid CSS color override + centering)
         st.markdown(
             """
-            <div style="text-align: center; padding: 0.5rem 0 1rem;">
-                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDQyIDQyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjN2I1ZWE3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4ODg5ZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIiByeD0iMTIiIGZpbGw9InVybCgjZykiLz4KICA8dGV4dCB4PSIyMSIgeT0iMjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2VyaWYiPuKXiDwvdGV4dD4KPC9zdmc+" width="42" height="42" style="display: block; margin: 0 auto 8px;" />
+            <div style="width: 100%; display: flex; flex-direction: column; align-items: center; padding: 0.5rem 0 1rem;">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDQyIDQyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjN2I1ZWE3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4ODg5ZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjQyIiBoZWlnaHQ9IjQyIiByeD0iMTIiIGZpbGw9InVybCgjZykiLz4KICA8dGV4dCB4PSIyMSIgeT0iMjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0ic2VyaWYiPuKXiDwvdGV4dD4KPC9zdmc+" width="42" height="42" style="margin-bottom: 8px;" />
                 <h2 style="
                     margin: 0;
                     font-family: 'DM Serif Display', Georgia, serif;
                     color: #2d2d2d !important;
                     font-size: 1.3rem;
                     font-weight: 400;
+                    text-align: center;
                 ">Vantage</h2>
-                <p style="color: #8a8494 !important; font-size: 0.75rem; margin-top: 0.25rem;">
+                <p style="color: #8a8494 !important; font-size: 0.75rem; margin-top: 0.25rem; text-align: center;">
                     Upload · Ask · Insights
                 </p>
             </div>
