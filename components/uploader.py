@@ -50,7 +50,7 @@ def render_sidebar() -> None:
     """
     with st.sidebar:
         # ── Branding icon (rendered as image to avoid CSS color override)
-        _icon_col1, _icon_col2, _icon_col3 = st.columns([1, 1, 1])
+        _icon_col1, _icon_col2, _icon_col3 = st.columns([1.2, 1, 1.2])
         with _icon_col2:
             _icon_path = os.path.join(
                 os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
