@@ -58,6 +58,14 @@ st.markdown(
         border-right: 1px solid #e0daea;
         color: #4a4556 !important;
     }
+    section[data-testid="stSidebar"] [data-testid="stImage"] {
+        display: flex;
+        justify-content: center;
+    }
+    section[data-testid="stSidebar"] [data-testid="stImage"] img {
+        margin: 0 auto;
+        display: block;
+    }
     section[data-testid="stSidebar"] h1,
     section[data-testid="stSidebar"] h2,
     section[data-testid="stSidebar"] h3,
