@@ -2,7 +2,10 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vantage-1910.streamlit.app)
 
-A conversational AI tool that lets any business user upload data and get chart-backed insights and ROI-framed recommendations in plain English — built with Claude API and Streamlit.
+Vantage is a Streamlit app I built to make CSV analysis easier for non-technical users.  
+You upload a dataset, ask a question in plain English, and the app generates charts, insights, and business recommendations using Claude.
+
+I built this because a lot of dashboard tools are useful only after setup, while most people just want quick answers from messy CSV files.
 
 **[▶ Launch Vantage](https://vantage-1910.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
 
@@ -10,29 +13,15 @@ A conversational AI tool that lets any business user upload data and get chart-b
 
 ## What It Does
 
-Upload any CSV → ask questions in plain English → get:
+- Upload a CSV or use a demo dataset
+- Ask natural-language business questions
+- Generate charts and plain-English insights
+- Suggest next-step recommendations
 
-- **Interactive Plotly charts** auto-generated from your data
-- **Insight narratives** explaining what the data shows
-- **Business recommendations** framed in terms of cost, revenue, risk, or opportunity
 
 The AI handles the entire pipeline: understanding your question, writing analysis code, executing it against your dataset, choosing the right chart type, and translating the results into actionable business language.
 
 ---
-
-## Architecture
-
-```
-User Question
-     ↓
-prompt_builder.py   →  Injects dataset schema + sample rows into system prompt
-     ↓
-claude_client.py    →  Sends to Claude API (claude-sonnet-4-20250514, temp=0)
-     ↓
-executor.py         →  Safely executes generated pandas code in sandbox
-     ↓
-charts.py + cards.py →  Renders Plotly chart + Insight & Recommendation cards
-```
 
 ## Tech Stack
 
@@ -46,85 +35,24 @@ charts.py + cards.py →  Renders Plotly chart + Insight & Recommendation cards
 
 ---
 
-## Quick Start
+## Why I built this
+I wanted to explore whether an LLM could act like a lightweight business analyst for ad hoc CSV analysis, especially for users who are comfortable asking questions but not writing SQL or Python.
 
-### 1. Clone & Install
+## Challenges
+- making the model generate valid pandas code consistently
+- choosing chart types automatically
+- keeping outputs useful for business users, not just technically correct
 
-```bash
-git clone https://github.com/Heer1910/Vantage.git
-cd Vantage
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-```
+## Limitations
+- works best on clean tabular CSV data
+- generated code execution is controlled, but not production-grade secure
+- recommendations depend on data quality and question clarity
 
-### 2. Set API Key
-
-```bash
-cp .env.example .env
-# Edit .env and add your Anthropic API key
-```
-
-### 3. Run
-
-```bash
-streamlit run app.py
-```
-
-The app opens at `http://localhost:8501`. Select a demo dataset or upload your own CSV to get started.
-
----
-
-## File Structure
-
-```
-Vantage/
-├── app.py                      # Main Streamlit entry point
-├── components/
-│   ├── uploader.py             # CSV upload + schema detection
-│   ├── chat.py                 # Conversation history rendering
-│   ├── charts.py               # Plotly chart builder + brand theming
-│   └── cards.py                # Insight & Recommendation cards
-├── engine/
-│   ├── claude_client.py        # Claude API wrapper + retry logic
-│   ├── prompt_builder.py       # Dynamic system prompt constructor
-│   └── executor.py             # Safe Python code execution sandbox
-├── config/
-│   └── theme.py                # Brand colors + Plotly template
-├── data/
-│   ├── retail_sample.csv       # Demo: 1,000 rows of retail sales
-│   ├── churn_sample.csv        # Demo: 500 rows of telecom churn
-│   └── icon_white.svg          # Vantage brand icon (white ◈ on gradient)
-├── .streamlit/config.toml      # Streamlit theme config
-├── .env.example                # API key template
-├── requirements.txt            # Pinned dependencies
-└── README.md
-```
-
----
-
-## Demo Datasets
-
-| Dataset | Rows | Source Inspiration |
-|---------|------|--------------------|
-| Retail Sales Sample | 1,000 | [M5 Demand Forecasting](https://github.com/Heer1910/m5-demand-forecasting) |
-| Telecom Churn Sample | 500 | [Telco Churn Prediction](https://github.com/Heer1910/telco-churn-prediction) |
-
----
-
-## Deployment (Streamlit Cloud)
-
-1. Push to public GitHub repo under `Heer1910`
-2. Connect at [share.streamlit.io](https://share.streamlit.io) → select `app.py`
-3. Add `ANTHROPIC_API_KEY` under Settings → Secrets
-4. App goes live at [`heer1910-vantage.streamlit.app`](https://vantage-1910.streamlit.app)
-
----
-
-## Related Projects
-
-- [M5 Demand Forecasting](https://github.com/Heer1910/m5-demand-forecasting) — source of the retail demo dataset and $2.7M ROI methodology
-- [Retail KPI Dashboard](https://github.com/Heer1910/retail-kpi-dashboard) — star schema and BigQuery pipeline
-- [Telco Churn Prediction](https://github.com/Heer1910/telco-churn-prediction) — source of the churn demo dataset
+## Next improvements
+- export insights to PDF / PowerPoint
+- better guardrails for generated code
+- support for multi-sheet Excel files
+- saved dashboards and session history
 
 ---
 
