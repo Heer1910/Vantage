@@ -7,7 +7,7 @@ You upload a dataset, ask a question in plain English, and the app generates cha
 
 I built this because a lot of dashboard tools are useful only after setup, while most people just want quick answers from messy CSV files.
 
-**[▶ Launch Vantage](https://vantage-1910.streamlit.app)** · **[Portfolio](https://heer1910.github.io)**
+**[▶ Launch Vantage](https://vantage-1910.streamlit.app)** 
 
 ---
 
