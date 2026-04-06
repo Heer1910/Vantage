@@ -22,6 +22,16 @@ I built this because a lot of dashboard tools are useful only after setup, while
 The AI handles the entire pipeline: understanding your question, writing analysis code, executing it against your dataset, choosing the right chart type, and translating the results into actionable business language.
 
 ---
+## Screenshots
+
+### Home Page
+![Vantage Home](images/Image_1.png)
+
+### Example Analysis
+![Vantage Analysis](images/Image_2.png)
+![Vantage Analysis](images/Image_3.png)
+
+---
 
 ## Tech Stack
 
