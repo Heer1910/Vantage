@@ -25,11 +25,11 @@ The AI handles the entire pipeline: understanding your question, writing analysi
 ## Screenshots
 
 ### Home Page
-![Vantage Home](images/Image_1.png)
+![Vantage Home](Image_1.png)
 
 ### Example Analysis
-![Vantage Analysis](images/Image_2.png)
-![Vantage Analysis](images/Image_3.png)
+![Vantage Analysis](Image_2.png)
+![Vantage Analysis](Image_3.png)
 
 ---
 
