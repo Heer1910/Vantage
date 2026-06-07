@@ -1,4 +1,4 @@
-# ◈ Vantage — AI Business Analyst Agent
+# ◈ Vantage — AI Analyst Agent on Claude API
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vantage-1910.streamlit.app)
 
