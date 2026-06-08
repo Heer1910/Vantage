@@ -1,6 +1,6 @@
 # ◈ Vantage — AI Analyst Agent on Claude API
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vantage-1910.streamlit.app)
+**[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vantage-1910.streamlit.app)
 
 Vantage is a Streamlit app I built to make CSV analysis easier for non-technical users.  
 You upload a dataset, ask a question in plain English, and the app generates charts, insights, and business recommendations using Claude.
